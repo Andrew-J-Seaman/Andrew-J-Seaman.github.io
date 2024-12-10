@@ -3,85 +3,126 @@ layout: cv
 title: Andrew Seaman's CV
 ---
 # Andrew Seaman
-Business Analys, Computer Scientist, Public Speaker
+Business Analyst, Computer Scientist, Public Speaker
+(801) 318-6464 | andrewjseaman17@gmail.com
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="https://www.linkedin.com/in/andrew-james-seaman/">My Linkedin page</a>
 </div>
 
 
 ## Currently
+Current student of Brigham Young University - Idaho dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in a varied field of interests.
 
-Acquiring a bachelors degree in business analytics with a minor in computer science at Brigham Young University–Idaho.
+Personal passions include music, sports, computer science, and other areas of interest.
+
+Pursuing a Bachelors of Science, Business Analytics and a Minor, Computer Science (Expected graduation: Fall 2026).
 
 ### Specialized in
 <!-- Add: specialized in -->
 <!-- Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke) -->
-Lorem ipsum
+__Topics:__
+- Business Analytics; Data Science; Computer Science
+
+__Programming Languages:__
+- Python, C#, MySQL, R, and Markdown (Quarto).
+
+__Technologies:__
+- Excel; Google Sheets
+
+__Soft Skills__
+- Public Speaking; Spanish Fluency; Writing; Organization; Teamwork; Conflict Resolution
+
 
 ### Research interests
-<!-- Add: research interests -->
-<!-- Cooling, power series, optics, alchemy, planetary motions, apples. -->
+Machine learning, Data structures, Advanced data modeling and predictive analysis for business efficiency
 
 
 ## Education
 <!-- Add: education -->
-<!-- `1654-1660`
-__The King's School, Grantham.__
+`Idaho, Rexburg`
+`Fall 2019 - Present`
+__Brigham Young University - Idaho__
+_Bachelors of Science, Business Analytics_
+_Minor, Computer Science_
+- Junior, On-Campus student
+- Sales Society, Men's Choir, Beginning Orchestra
 
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow -->
-
-
-
-## Awards
-<!-- Add: awards -->
-<!-- `2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France -->
+`Utah, Orem`
+`September 2016 - May 2019`
+__Orem High School__
+_High School Diploma_
+- GPA: 3.97, Graduated with Honors.
+- National Honors Society (2015-2019), Cross Country Team, Advanced Choir, Spanish, French, Drama, AP and Honors Classes.
 
 
+## Work Experience
+`South Dakota & Illinois`
+`November 2023 - Present`
+__Vantage Marketing__
+_Sales account manager & Recruiter_
+- Engaged in active recruitment. Performing door-to-door sales for Insight Pest Control. Team historically produces 2.5 million in serviced revenue.
 
-## Publications
-<!-- Add: publications -->
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+`Delaware & Pennsylvania`
+`July 2023 - August 2023`
+__Greenix Pest Control__
+_Sales account manager_
+- Executed door-to-door sales. Team collectively produced 1.2 million in serviced revenue.
 
-### Journals
-<!-- Add: journals -->
-<!-- `1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+`Maryland & Virginia`
+`March 2023 - July 2023`
+__Pointe Marketing__
+_Sales account manager_
+- Executed door-to-door sales for Frontline Pest Control. Team collectively produced 1.8 million in serviced revenue.
 
-`1669`
-Lectiones opticæ.
+`Orem, UT`
+`June 2015 - October 2017`
+__Malawi's Pizza__
+_Dishwasher, Busser, Line Cook, Cashier_
+- Cleaned dishes in a high paced environment. Made food in several stations (pizza, pasta, salad). Trained in cashiering.
 
-etc. etc. etc. -->
+`Lehi, UT`
+`January 2015 - December 2016`
+__The Bella Bazar__
+_Executive Assistant_
+- Streamlined setup processes, improved customer service standards, ensured proper food handling, and upheld sanitation protocols.
 
-### Patents
-<!-- Add: patents: -->
-<!-- `2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001 -->
+
+## Service
+`Pennsylvania Philadelphia Mission`
+`September 2020 - October 2022`
+__The Church of Jesus Christ of Latter-day Saints__
+_Volunteer Minister - Spanish Speaking_
+- Commissioned by the President of The Church of Jesus Christ of Latter-day Saints. Relocated frequently to serve communities and primarily engage in proselytizing for a two-year period.
+- Directed by President Daniel F. Dunnigan, and President Justin Harding, formerly Chief of Staff to Utah Governor Gary Herbert.
+
+`Yucatan, Mexico`
+`July 2018`
+__Humanitarian Especially for Youth__ 
+_Volunteer Builder - Spanish Speaking_
+- Played a key role in construction of a school's foundation alongside local workers for young and abused girls reclaimed from abusive
+families for protection and success.
+
+`Orem, UT`
+`January 2012 - December 2018`
+__The Boy Scouts of America (BSA)__
+_Eagle Scout_
+- Achieved esteemed rank of Eagle Scout after 7 years (December 2018). Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen.
 
 
-## Occupation
-<!-- Add: occupation -->
-<!-- `1600`
-__Royal Mint__, London
+## Extra Curricular
+`Orem, UT & Rexburg, ID`
+`September 2013 - April 2020`
+__Choral Artist__
+- Involved in 6 choirs; Institutions (3): Canyon View Jr. High School, Orem High School, Brigham Young University - Idaho.
 
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University -->
-
+`UT & European Nations`
+`September 2018 - July 2019`
+__The Utah Ambassadors of Music__
+_European Choir Tour Nominee & Participant_
+- Selected as a three-times nominee for The Utah Ambassadors of Music.
+- Nominated by Sterling Keys, High School choir director, for participation in bi-annual European Choir Tour (2019).
+- Concert host countries include: London, France, Switzerland, Austria, Italy, and Germany.
 
 
 <!-- ### Footer
