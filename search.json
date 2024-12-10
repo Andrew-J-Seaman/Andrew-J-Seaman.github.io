@@ -2,19 +2,29 @@
   {
     "objectID": "story_telling.html",
     "href": "story_telling.html",
-    "title": "about me",
+    "title": "About me",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "I was born and raised in Orem, UT all my life.\n\n\n\nSince beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics",
     "crumbs": [
       "Story Telling"
     ]
   },
   {
-    "objectID": "story_telling.html#title-2-header",
-    "href": "story_telling.html#title-2-header",
-    "title": "about me",
+    "objectID": "story_telling.html#hometown",
+    "href": "story_telling.html#hometown",
+    "title": "About me",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "I was born and raised in Orem, UT all my life.",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "story_telling.html#travel---locales",
+    "href": "story_telling.html#travel---locales",
+    "title": "About me",
+    "section": "",
+    "text": "Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics",
     "crumbs": [
       "Story Telling"
     ]
