@@ -2,127 +2,335 @@
 layout: cv
 title: Andrew Seaman's CV
 ---
-# Andrew Seaman
-Business Analyst, Computer Scientist, Public Speaker
-(801) 318-6464 | andrewjseaman17@gmail.com
 
-<div id="webaddress">
-<a href="https://www.linkedin.com/in/andrew-james-seaman/">My Linkedin page</a>
+<div style="text-align: center;">
+<h1>Andrew Seaman</h1>
+<p>Business Analyst | Computer Scientist | Data Scientist | Public Speaker</p>
+<div style="text-align: center;">
+<a href="https://www.linkedin.com/in/andrew-james-seaman/" style="margin-right: 20px;">LinkedIn</a>
+<a href="tel:801-318-6464" style="margin-right: 20px;">Phone</a>
+<a href="mailto:andrewjseaman17@gmail.com">Email</a>
+</div>
 </div>
 
 
 ## Currently
-Current student of Brigham Young University - Idaho dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in a varied field of interests.
+On-campus student of Brigham Young University - Idaho dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in a varied field of interests.
 
 Personal passions include music, sports, computer science, and other areas of interest.
 
-Pursuing a Bachelors of Science, Business Analytics and a Minor, Computer Science (Expected graduation: Fall 2026).
+Pursuing a Bachelors of Science, Business Analytics and a Minor, Computer Science.
+
+Expected graduation: Fall 2026.
 
 ### Specialized in
-<!-- Add: specialized in -->
-<!-- Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke) -->
-__Topics:__
-- Business Analytics; Data Science; Computer Science
-
-__Programming Languages:__
-- Python, C#, MySQL, R, and Markdown (Quarto).
-
-__Technologies:__
-- Excel; Google Sheets
-
-__Soft Skills__
-- Public Speaking; Spanish Fluency; Writing; Organization; Teamwork; Conflict Resolution
+<!-- Topics, Programming Languages, Technologies, Soft Skills -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Topics</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Business Analytics <br>• Data Science <br>• Computer Science</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Programming Languages</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Python <br>• C# <br>• MySQL <br>• R <br>• Markdown (Quarto)</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Technologies</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Excel <br>• Google Sheets</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Soft Skills</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Public Speaking <br>• Spanish Fluency<br>• Writing <br>• Organization<br>• Teamwork<br>• Conflict Resolution</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
 
 ### Research interests
-Machine learning, Data structures, Advanced data modeling and predictive analysis for business efficiency
+- Machine learning
+- Data structures
+- Advanced data modeling and predictive analysis for business efficiency
 
 
 ## Education
-<!-- Add: education -->
-`Idaho, Rexburg`
-`Fall 2019 - Present`
-__Brigham Young University - Idaho__
-_Bachelors of Science, Business Analytics_
-_Minor, Computer Science_
-- Junior, On-Campus student
-- Sales Society, Men's Choir, Beginning Orchestra
+<!-- Brigham Young University - Idaho -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Brigham Young University - Idaho</td>
+        <td style="text-align: right; padding: 0;">Idaho, Rexburg</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Bachelors of Science, Business Analytics</td>
+        <td style="text-align: right; padding: 0;">Fall 2019 - Present</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Minor, Computer Science</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Junior, On-Campus student <br>• Sales Society, Men’s Choir, Beginning Orchestra</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
-`Utah, Orem`
-`September 2016 - May 2019`
-__Orem High School__
-_High School Diploma_
-- GPA: 3.97, Graduated with Honors.
-- National Honors Society (2015-2019), Cross Country Team, Advanced Choir, Spanish, French, Drama, AP and Honors Classes.
+<br>
+
+<!-- Orem High School -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Orem High School</td>
+        <td style="text-align: right; padding: 0;">Utah, Orem</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">High School Diploma</td>
+        <td style="text-align: right; padding: 0;">Sep 2016 - May 2019</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• GPA: 3.97, Graduated with Honors <br>• National Honors Society (2015-2019)</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Cross Country Team, Club Soccer<br>• Advanced Choir, Drama<br>• Spanish, French, AP and Honors Classes.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
 
 ## Work Experience
-`South Dakota & Illinois`
-`November 2023 - Present`
-__Vantage Marketing__
-_Sales account manager & Recruiter_
-- Engaged in active recruitment. Performing door-to-door sales for Insight Pest Control. Team historically produces 2.5 million in serviced revenue.
+<!-- Vantage Marketing -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Vantage Marketing</td>
+        <td style="text-align: right; padding: 0;">South Dakota & Illinois</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Sales account manager & Recruiter</td>
+        <td style="text-align: right; padding: 0;">Nov 2023 - Present</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Engaged in active recruitment. <br>• Performing door-to-door sales for Insight Pest Control. <br>• Team historically produces 2.5 million in serviced revenue.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
-`Delaware & Pennsylvania`
-`July 2023 - August 2023`
-__Greenix Pest Control__
-_Sales account manager_
-- Executed door-to-door sales. Team collectively produced 1.2 million in serviced revenue.
+<br>
 
-`Maryland & Virginia`
-`March 2023 - July 2023`
-__Pointe Marketing__
-_Sales account manager_
-- Executed door-to-door sales for Frontline Pest Control. Team collectively produced 1.8 million in serviced revenue.
+<!-- Greenix Pest Control -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Greenix Pest Control</td>
+        <td style="text-align: right; padding: 0;">Delaware & Pennsylvania</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Sales account manager</td>
+        <td style="text-align: right; padding: 0;">Jul 2023 - Aug 2023</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Executed door-to-door sales. <br>• Team collectively produced 1.2 million in serviced revenue.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
-`Orem, UT`
-`June 2015 - October 2017`
-__Malawi's Pizza__
-_Dishwasher, Busser, Line Cook, Cashier_
-- Cleaned dishes in a high paced environment. Made food in several stations (pizza, pasta, salad). Trained in cashiering.
+<br>
 
-`Lehi, UT`
-`January 2015 - December 2016`
-__The Bella Bazar__
-_Executive Assistant_
-- Streamlined setup processes, improved customer service standards, ensured proper food handling, and upheld sanitation protocols.
+<!-- Pointe Marketing -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Pointe Marketing</td>
+        <td style="text-align: right; padding: 0;">Maryland & Virginia</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Sales account manager</td>
+        <td style="text-align: right; padding: 0;">Mar 2023 - Jul 2023</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Executed door-to-door sales for Frontline Pest Control. <br>• Team collectively produced 1.8 million in serviced revenue.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
+
+<br>
+
+<!-- Malawi's Pizza -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Malawi's Pizza</td>
+        <td style="text-align: right; padding: 0;">Orem, UT</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Dishwasher, Busser, Line Cook, Cashier</td>
+        <td style="text-align: right; padding: 0;">Jun 2015 - Oct 2017</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Cleaned dishes in a high paced environment. <br>• Made food in several stations (pizza, pasta, salad). <br>• Trained in cashiering.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
+
+<br>
+
+<!-- The Bella Bazar -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">The Bella Bazar</td>
+        <td style="text-align: right; padding: 0;">Lehi, UT</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-style: italic;">Executive Assistant</td>
+        <td style="text-align: right; padding: 0;">Jan 2015 - Dec 2016</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Streamlined setup processes <br>• Improved customer service standards<br>• Ensured proper food handling<br>• Upheld sanitation protocols.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
 
 ## Service
-`Pennsylvania Philadelphia Mission`
-`September 2020 - October 2022`
-__The Church of Jesus Christ of Latter-day Saints__
-_Volunteer Minister - Spanish Speaking_
-- Commissioned by the President of The Church of Jesus Christ of Latter-day Saints. Relocated frequently to serve communities and primarily engage in proselytizing for a two-year period.
-- Directed by President Daniel F. Dunnigan, and President Justin Harding, formerly Chief of Staff to Utah Governor Gary Herbert.
+<!-- The Church of Jesus Christ of Latter-day Saints -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: right; padding: 0;">Pennsylvania Philadelphia Mission</td>
+    </tr>
+    <tr>
+        <td style="text-align: right; padding: 0;">Sep 2020 - Oct 2022</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">The Church of Jesus Christ of Latter-day Saints</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: italic;">Volunteer Minister - Spanish Speaking</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Commissioned by the President of The Church of Jesus Christ of Latter-day Saints. Relocated frequently to serve communities and primarily engage in proselytizing for a two-year period.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Directed by President Daniel F. Dunnigan, and President Justin Harding, formerly Chief of Staff to Utah Governor Gary Herbert.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
-`Yucatan, Mexico`
-`July 2018`
-__Humanitarian Especially for Youth__ 
-_Volunteer Builder - Spanish Speaking_
-- Played a key role in construction of a school's foundation alongside local workers for young and abused girls reclaimed from abusive
-families for protection and success.
+<br>
 
-`Orem, UT`
-`January 2012 - December 2018`
-__The Boy Scouts of America (BSA)__
-_Eagle Scout_
-- Achieved esteemed rank of Eagle Scout after 7 years (December 2018). Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen.
+<!-- Humanitarian Especially for Youth -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: right; padding: 0;">Yucatan, Mexico</td>
+    </tr>
+    <tr>
+        <td style="text-align: right; padding: 0;">Jul 2018</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Humanitarian Especially for Youth</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: italic;">Volunteer Builder - Spanish Speaking</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Played a key role in construction of a school's foundation alongside local workers for young and abused girls reclaimed from abusive families for protection and success.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
+
+<br>
+
+<!-- The Boy Scouts of America (BSA) -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: right; padding: 0;">Orem, UT</td>
+    </tr>
+    <tr>
+        <td style="text-align: right; padding: 0;">Jan 2012 - Dec 2018</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">The Boy Scouts of America (BSA)</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: italic;">Eagle Scout</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Achieved esteemed rank of Eagle Scout after 7 years (December 2018). Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
 
 ## Extra Curricular
-`Orem, UT & Rexburg, ID`
-`September 2013 - April 2020`
-__Choral Artist__
-- Involved in 6 choirs; Institutions (3): Canyon View Jr. High School, Orem High School, Brigham Young University - Idaho.
+<!-- Choral Artist -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: right; padding: 0;">Orem, UT & Rexburg, ID</td>
+    </tr>
+    <tr>
+        <td style="text-align: right; padding: 0;">Sep 2013 - Apr 2020</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">Choral Artist</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: italic;">Tennor Vocalist</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Involved in 6 choirs; Institutions (3): Canyon View Jr. High School, Orem High School, Brigham Young University - Idaho.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
-`UT & European Nations`
-`September 2018 - July 2019`
-__The Utah Ambassadors of Music__
-_European Choir Tour Nominee & Participant_
-- Selected as a three-times nominee for The Utah Ambassadors of Music.
-- Nominated by Sterling Keys, High School choir director, for participation in bi-annual European Choir Tour (2019).
-- Concert host countries include: London, France, Switzerland, Austria, Italy, and Germany.
+<br>
+
+<!-- The Utah Ambassadors of Music -->
+<table style="border-collapse: collapse; width: 100%; border: none;">
+    <tr>
+        <td style="text-align: right; padding: 0;">UT & European Nations</td>
+    </tr>
+    <tr>
+        <td style="text-align: right; padding: 0;">Sep 2018 - Jul 2019</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: bold;">The Utah Ambassadors of Music</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 0; font-weight: italic;">European Choir Tour Nominee & Participant</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Selected as a three-times nominee for The Utah Ambassadors of Music.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Nominated by Sterling Keys, High School choir director, for participation in bi-annual European Choir Tour (2019).</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Concert host countries include: London, France, Switzerland, Austria, Italy, and Germany.</td>
+        <td style="text-align: right; padding: 0;"></td>
+    </tr>
+</table>
 
 
 <!-- ### Footer
