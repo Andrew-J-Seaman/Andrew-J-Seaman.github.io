@@ -124,9 +124,9 @@
   {
     "objectID": "story_telling.html",
     "href": "story_telling.html",
-    "title": "about me",
+    "title": "About me",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "I was born and raised in Orem, UT all my life.\n\n\n\nSince beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics",
     "crumbs": [
       "Story Telling"
     ]
@@ -505,5 +505,25 @@
     "title": "Andrew Seaman’s CV",
     "section": "Extra Curricular",
     "text": "Extra Curricular\n\n\n\n\nOrem, UT & Rexburg, ID\n\n\n\n\nSep 2013 - Apr 2020\n\n\n\n\nChoral Artist\n\n\n\n\n\n\nTennor Vocalist\n\n\n\n\n\n\n• Involved in 6 choirs; Institutions (3): Canyon View Jr. High School, Orem High School, Brigham Young University - Idaho.\n\n\n\n\n\n\n\n\n\n\nUT & European Nations\n\n\n\n\nSep 2018 - Jul 2019\n\n\n\n\nThe Utah Ambassadors of Music\n\n\n\n\n\n\nEuropean Choir Tour Nominee & Participant\n\n\n\n\n\n\n• Selected as a three-times nominee for The Utah Ambassadors of Music.\n\n\n\n\n\n\n• Nominated by Sterling Keys, High School choir director, for participation in bi-annual European Choir Tour (2019).\n\n\n\n\n\n\n• Concert host countries include: London, France, Switzerland, Austria, Italy, and Germany."
+  },
+  {
+    "objectID": "story_telling.html#hometown",
+    "href": "story_telling.html#hometown",
+    "title": "About me",
+    "section": "",
+    "text": "I was born and raised in Orem, UT all my life.",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "story_telling.html#travels---locales",
+    "href": "story_telling.html#travels---locales",
+    "title": "About me",
+    "section": "",
+    "text": "Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics",
+    "crumbs": [
+      "Story Telling"
+    ]
   }
 ]
