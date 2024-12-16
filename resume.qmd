@@ -1,6 +1,7 @@
 ---
 layout: cv
-title: Andrew Seaman's CV
+title: CV
+subtitle: Andrew Seaman
 ---
 
 <div style="text-align: center;">
