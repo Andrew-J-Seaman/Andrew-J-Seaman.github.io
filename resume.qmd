@@ -1,12 +1,12 @@
 ---
 layout: cv
-title: CV
-subtitle: Andrew Seaman
+title: Andrew Seaman's CV
+subtitle: "Updated: December 2024"
 ---
 
 <div style="text-align: center;">
 <h1>Andrew Seaman</h1>
-<p>Business Analyst | Computer Scientist | Data Scientist | Public Speaker</p>
+<p>Business Analyst | Computer & Data Scientist | Public Speaker</p>
 <div style="text-align: center;">
 <a href="https://www.linkedin.com/in/andrew-james-seaman/" style="margin-right: 20px;">LinkedIn</a>
 <a href="tel:801-318-6464" style="margin-right: 20px;">Phone</a>
@@ -16,324 +16,397 @@ subtitle: Andrew Seaman
 
 
 ## Currently
-On-campus student of Brigham Young University - Idaho dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in a varied field of interests.
+```{=html}
+<!-- Headers -->
+<div>
+    <!-- Institution -->
+    <p style="margin: 0;">
+        <span style="font-weight: bold;">Institution:</span>
+        <span style="float: right;">Brigham Young University - Idaho</span>
+    </p>
+    <!-- Academic Year -->
+    <p style="clear: both; margin: 0;">
+        <span style="font-weight: bold;">Academic Year:</span>
+        <span style="float: right;">Junior, On-campus, Undergrad</span>
+    </p>
+    <!-- Expected graduation -->
+    <p style="clear: both; margin: 0;">
+        <span style="font-weight: bold;">Expected graduation:</span>
+        <span style="float: right;">Fall of 2026</span>
+    </p>
+    <!-- Personal values and insight -->
+    <p style="padding-top: 40px;">
+        <span style ="float-left;">Dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in various fields of interests.</span>
+    </p>
+</div>
 
-Personal passions include music, sports, computer science, and other areas of interest.
+<!-- Personal Passions -->
+<div style="overflow: hidden;">
+    <!-- Header -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Personal Passions</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 50px; margin-top: 30px; margin-bottom: 5px;">
+        <li>Music</li>
+        <li>Art collecting</li>
+        <li>Participation in sports</li>
+        <li>Computer science</li>
+        <li>Systemization and efficiency exploration</li>
+    </ul>
+</div>
 
-Pursuing a Bachelors of Science, Business Analytics and a Minor, Computer Science.
-
-Expected graduation: Fall 2026.
+<!-- Degrees in Pursuit -->
+<div style="padding-top: 10px; overflow: hidden;">
+    <!-- Header -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Degrees in Pursuit</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 50px; margin-top: 30px; margin-bottom: 5px;">
+        <li>Bachelor of Science in Business Analytics</li>
+        <li>Minor in Computer Science</li>
+    </ul>
+</div>
+```
 
 ### Specialized in
 <!-- Topics, Programming Languages, Technologies, Soft Skills -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Topics</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Business Analytics <br>• Data Science <br>• Computer Science</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Programming Languages</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Python <br>• C# <br>• MySQL <br>• R <br>• Markdown (Quarto)</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Technologies</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Excel <br>• Google Sheets</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Soft Skills</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Public Speaking <br>• Spanish Fluency<br>• Writing <br>• Organization<br>• Teamwork<br>• Conflict Resolution</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
+```{=html}
+<div style="overflow: hidden;">
+    
+    <!-- Topics -->
+    <div style="padding-top: 5px;">
+        <p style="margin: 0;">
+            <span style="font-weight: bold;">Topics</span>
+        </p>
+        <ul style="text-align: left; padding-left: 50px; margin-top: 5px; margin-bottom: 5px;">
+            <li>Business Analytics</li>
+            <li>Data Science</li>
+            <li>Computer Science</li>
+        </ul>
+    </div>
 
+    <!-- Programming Languages -->
+    <div style="padding-top: 15px;">
+        <p style="margin: 0;">
+            <span style="font-weight: bold;">Programming Languages</span>
+        </p>
+        <ul style="text-align: left; padding-left: 50px; margin-top: 5px; margin-bottom: 5px;">
+            <li>Python</li>
+            <li>C#</li>
+            <li>MySQL</li>
+            <li>R</li>
+            <li>Markdown (HTML5; Quarto)</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+    <!-- Technologies -->
+    <div style="padding-top: 15px; padding-bottom: 3px;">
+        <p style="margin: 0;">
+            <span style="font-weight: bold;">Technologies</span>
+        </p>
+        <ul style="text-align: left; padding-left: 50px; margin-top: 5px; margin-bottom: 5px;">
+            <li>Excel</li>
+            <li>Google Sheets</li>
+        </ul>
+    </div>
+
+    <!-- Soft Skills -->
+    <div style="padding-top: 15px; padding-bottom: 3px;">
+        <p style="margin: 0;">
+            <span style="font-weight: bold;">Soft Skills</span>
+        </p>
+        <ul style="text-align: left; padding-left: 50px; margin-top: 5px; margin-bottom: 5px;">
+            <li>Public Speaking</li>
+            <li>Spanish Fluency</li>
+            <li>Writing</li>
+            <li>Organization</li>
+            <li>Teamwork</li>
+            <li>Conflict Resolution</li>
+        </ul>
+    </div>
+</div>
+```
 
 ### Research interests
-- Machine learning
-- Data structures
-- Advanced data modeling and predictive analysis for business efficiency
-
+```{=html}
+<!-- Research interests -->
+<div style="padding-bottom: 10px; overflow: hidden;">
+    <ul style="text-align: left; padding-left: 50px; margin-top: 5px; margin-bottom: 5px;">
+        <li>Machine learning</li>
+        <li>Data structures</li>
+        <li>Advanced data modeling and predictive analysis for business efficiency</li>
+    </ul>
+</div>
+```
 
 ## Education
-<!-- Brigham Young University - Idaho -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Brigham Young University - Idaho</td>
-        <td style="text-align: right; padding: 0;">Idaho, Rexburg</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Bachelors of Science, Business Analytics</td>
-        <td style="text-align: right; padding: 0;">Fall 2019 - Present</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Minor, Computer Science</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Junior, On-Campus student <br>• Sales Society, Men’s Choir, Beginning Orchestra</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
+```{=html}
+<div style=" padding-bottom: 10px;">
+    <!-- Brigham Young University - Idaho -->
+    <div style="overflow: hidden;">
+        <!-- Header with aligned location -->
+        <p style="margin: 0;">
+            <span style="float: left; font-weight: bold;">Brigham Young University - Idaho</span>
+            <span style="float: right; font-size: 0.9em;">Rexburg, Idaho</span>
+        </p>
+        <!-- Subheader with aligned timeframe -->
+        <p style="clear: both; margin: 0;">
+            <span style="float: left; font-weight: italic;">Bachelor of Science in Business Analytics</span>
+            <span style="float: right; font-size: 0.9em;">Fall 2019 - Present</span>
+        </p>
+        <!-- Bullet List -->
+        <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+            <li>Junior, On-Campus Student</li>
+            <li>Active in Sales Society, Men’s Choir, and Beginning Orchestra</li>
+            <li>Minor in Computer Science</li>
+        </ul>
+    </div>
 
-<br>
 
-<!-- Orem High School -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Orem High School</td>
-        <td style="text-align: right; padding: 0;">Utah, Orem</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">High School Diploma</td>
-        <td style="text-align: right; padding: 0;">Sep 2016 - May 2019</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• GPA: 3.97, Graduated with Honors <br>• National Honors Society (2015-2019)</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Cross Country Team, Club Soccer<br>• Advanced Choir, Drama<br>• Spanish, French, AP and Honors Classes.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
+    <!-- Orem High School -->
+    <div style="padding-top: 30px; overflow: hidden;">
+        <!-- Header with aligned location -->
+        <p style="margin: 0;">
+            <span style="float: left; font-weight: bold;">Orem High School</span>
+            <span style="float: right; font-size: 0.9em;">Orem, Utah</span>
+        </p>
+        <!-- Subheader with aligned timeframe -->
+        <p style="clear: both; margin: 0;">
+            <span style="float: left; font-weight: italic;">High School Diploma</span>
+            <span style="float: right; font-size: 0.9em;">September 2016 - May 2019</span>
+        </p>
+        <!-- Bullet List -->
+        <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+            <li>GPA: 3.97, Graduated with Honors</li>
+            <li>Member of National Honors Society (2015-2019)</li>
+            <li>Activities: Cross Country Team, Club Soccer, Advanced Choir, Drama</li>
+            <li>Completed Spanish, French, AP, and Honors Classes</li>
+        </ul>
+    </div>
+</div>
+```
 
 ## Work Experience
+```{=html}
 <!-- Vantage Marketing -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Vantage Marketing</td>
-        <td style="text-align: right; padding: 0;">South Dakota & Illinois</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Sales account manager & Recruiter</td>
-        <td style="text-align: right; padding: 0;">Nov 2023 - Present</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Engaged in active recruitment. <br>• Performing door-to-door sales for Insight Pest Control. <br>• Team historically produces 2.5 million in serviced revenue.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Vantage Marketing</span>
+        <span style="float: right; font-size: 0.9em;">Sioux Falls, South Dakota & Orem, Utah</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Sales Account Manager & Recruiter</span>
+        <span style="float: right; font-size: 0.9em;">November 2023 - Present</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Engaged in active recruitment for top-performing sales team members.</li>
+        <li>Performed door-to-door sales for Insight Pest Control.</li>
+        <li>Contributed to a team that historically produces $2.5 million in serviced revenue annually.</li>
+    </ul>
+</div>
 
 <!-- Greenix Pest Control -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Greenix Pest Control</td>
-        <td style="text-align: right; padding: 0;">Delaware & Pennsylvania</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Sales account manager</td>
-        <td style="text-align: right; padding: 0;">Jul 2023 - Aug 2023</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Executed door-to-door sales. <br>• Team collectively produced 1.2 million in serviced revenue.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Greenix Pest Control</span>
+        <span style="float: right; font-size: 0.9em;">Delaware & Pennsylvania</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Sales Account Manager</span>
+        <span style="float: right; font-size: 0.9em;">July 2023 - August 2023</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Executed door-to-door sales with a focus on customer service and relationship building.</li>
+        <li>Collaborated with a team that collectively produced $1.2 million in serviced revenue.</li>
+    </ul>
+</div>
 
 <!-- Pointe Marketing -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Pointe Marketing</td>
-        <td style="text-align: right; padding: 0;">Maryland & Virginia</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Sales account manager</td>
-        <td style="text-align: right; padding: 0;">Mar 2023 - Jul 2023</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Executed door-to-door sales for Frontline Pest Control. <br>• Team collectively produced 1.8 million in serviced revenue.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Pointe Marketing</span>
+        <span style="float: right; font-size: 0.9em;">Maryland & Virginia</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Sales Account Manager</span>
+        <span style="float: right; font-size: 0.9em;">March 2023 - July 2023</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Executed door-to-door sales for Frontline Pest Control.</li>
+        <li>Contributed to a team that collectively produced $1.8 million in serviced revenue.</li>
+    </ul>
+</div>
 
 <!-- Malawi's Pizza -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Malawi's Pizza</td>
-        <td style="text-align: right; padding: 0;">Orem, UT</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Dishwasher, Busser, Line Cook, Cashier</td>
-        <td style="text-align: right; padding: 0;">Jun 2015 - Oct 2017</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Cleaned dishes in a high paced environment. <br>• Made food in several stations (pizza, pasta, salad). <br>• Trained in cashiering.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Malawi's Pizza</span>
+        <span style="float: right; font-size: 0.9em;">Orem, Utah</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Dishwasher, Busser, Line Cook, Cashier</span>
+        <span style="float: right; font-size: 0.9em;">June 2015 - October 2017</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Cleaned dishes in a high-paced environment.</li>
+        <li>Prepared food at multiple stations, including pizza, pasta, and salad.</li>
+        <li>Trained in cashier operations, handling payments and customer interactions.</li>
+    </ul>
+</div>
 
 <!-- The Bella Bazar -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">The Bella Bazar</td>
-        <td style="text-align: right; padding: 0;">Lehi, UT</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-style: italic;">Executive Assistant</td>
-        <td style="text-align: right; padding: 0;">Jan 2015 - Dec 2016</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Streamlined setup processes <br>• Improved customer service standards<br>• Ensured proper food handling<br>• Upheld sanitation protocols.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">The Bella Bazar</span>
+        <span style="float: right; font-size: 0.9em;">Lehi, Utah</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Executive Assistant</span>
+        <span style="float: right; font-size: 0.9em;">January 2015 - December 2016</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Streamlined setup processes.</li>
+        <li>Improved customer service standards.</li>
+        <li>Ensured proper food handling and upheld sanitation protocols.</li>
+    </ul>
+</div>
+```
 
 ## Service
+```{=html}
 <!-- The Church of Jesus Christ of Latter-day Saints -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: right; padding: 0;">Pennsylvania Philadelphia Mission</td>
-    </tr>
-    <tr>
-        <td style="text-align: right; padding: 0;">Sep 2020 - Oct 2022</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">The Church of Jesus Christ of Latter-day Saints</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: italic;">Volunteer Minister - Spanish Speaking</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Commissioned by the President of The Church of Jesus Christ of Latter-day Saints. Relocated frequently to serve communities and primarily engage in proselytizing for a two-year period.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Directed by President Daniel F. Dunnigan, and President Justin Harding, formerly Chief of Staff to Utah Governor Gary Herbert.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">The Church of Jesus Christ of Latter-day Saints</span>
+        <span style="float: right; font-size: 0.9em;">Pennsylvania, New Jersey & Delaware</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Full-Time Volunteer Minister - Spanish Speaking</span>
+        <span style="float: right; font-size: 0.9em;">September 2020 - October 2022</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Commissioned to serve communities, frequently relocating to assist in proselytizing efforts.</li>
+        <li>Collaborated with local leaders and communities to support humanitarian initiatives.</li>
+        <li>Directed under leadership of President Daniel F. Dunnigan and President Justin Harding.</li>
+    </ul>
+</div>
 
 <!-- Humanitarian Especially for Youth -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: right; padding: 0;">Yucatan, Mexico</td>
-    </tr>
-    <tr>
-        <td style="text-align: right; padding: 0;">Jul 2018</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Humanitarian Especially for Youth</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: italic;">Volunteer Builder - Spanish Speaking</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Played a key role in construction of a school's foundation alongside local workers for young and abused girls reclaimed from abusive families for protection and success.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Humanitarian Especially for Youth</span>
+        <span style="float: right; font-size: 0.9em;">Merida, Yucatan, México</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Volunteer Builder - Spanish Speaking</span>
+        <span style="float: right; font-size: 0.9em;">July 2018</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Played a key role in construction of a school's foundation alongside local workers.</li>
+        <li>Supported young and abused girls reclaimed from abusive families for protection and success.</li>
+    </ul>
+</div>
 
 <!-- The Boy Scouts of America (BSA) -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: right; padding: 0;">Orem, UT</td>
-    </tr>
-    <tr>
-        <td style="text-align: right; padding: 0;">Jan 2012 - Dec 2018</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">The Boy Scouts of America (BSA)</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: italic;">Eagle Scout</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Achieved esteemed rank of Eagle Scout after 7 years (December 2018). Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location  -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">The Boy Scouts of America (BSA)</span>
+        <span style="float:right; font-size: 0.9em;">Orem, Utah</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float:left; font-weight: italic;">Eagle Scout</span>
+        <span style="float:right; font-size: 0.9em;">January 2012 - December 2018</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Achieved esteemed rank of Eagle Scout after 7 years (December 2018).</li>
+        <li>Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen.</li>
+    </ul>
+</div>
+```
 
 ## Extra Curricular
+```{=html}
 <!-- Choral Artist -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: right; padding: 0;">Orem, UT & Rexburg, ID</td>
-    </tr>
-    <tr>
-        <td style="text-align: right; padding: 0;">Sep 2013 - Apr 2020</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">Choral Artist</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: italic;">Tennor Vocalist</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Involved in 6 choirs; Institutions (3): Canyon View Jr. High School, Orem High School, Brigham Young University - Idaho.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
-
-<br>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location  -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">Choral Artist</span>
+        <span style="float: right; font-size: 0.9em;">Orem, Utah & Rexburg, Idaho</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">Tenor Vocalist</span>
+        <span style="float: right; font-size: 0.9em;">September 2013 - April 2020</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Involved in 6 choirs; Institutions (3):</li>
+    </ul>
+    <!-- Ordered List -->
+    <ol style="text-align: left; padding-left: 40px; margin-top: 5px;">
+        <li>Canyon View Jr. High School</li>
+        <li>Orem High School</li>
+        <li>Brigham Young University - Idaho</li>
+    </ol>
+</div>
 
 <!-- The Utah Ambassadors of Music -->
-<table style="border-collapse: collapse; width: 100%; border: none;">
-    <tr>
-        <td style="text-align: right; padding: 0;">UT & European Nations</td>
-    </tr>
-    <tr>
-        <td style="text-align: right; padding: 0;">Sep 2018 - Jul 2019</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: bold;">The Utah Ambassadors of Music</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 0; font-weight: italic;">European Choir Tour Nominee & Participant</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Selected as a three-times nominee for The Utah Ambassadors of Music.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Nominated by Sterling Keys, High School choir director, for participation in bi-annual European Choir Tour (2019).</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding-left: 20px; padding-top: 5px;">• Concert host countries include: London, France, Switzerland, Austria, Italy, and Germany.</td>
-        <td style="text-align: right; padding: 0;"></td>
-    </tr>
-</table>
+<div style="padding-top: 10px; padding-bottom: 20px; overflow: hidden;">
+    <!-- Header with aligned location -->
+    <p style="margin: 0;">
+        <span style="float: left; font-weight: bold;">The Utah Ambassadors of Music</span>
+        <span style="float: right; font-size: 0.9em;">Utah, USA & European Nations</span>
+    </p>
+    <!-- Subheader with aligned timeframe -->
+    <p style="clear: both; margin: 0;">
+        <span style="float: left; font-weight: italic;">European Choir Tour Nominee & Participant</span>
+        <span style="float: right; font-size: 0.9em;">September 2018 - July 2019</span>
+    </p>
+    <!-- Bullet List -->
+    <ul style="text-align: left; padding-left: 20px; margin-top: 40px; margin-bottom: 5px;">
+        <li>Selected as a three-time nominee for The Utah Ambassadors of Music.</li>
+        <li>Nominated by Sterling Keys, high school choir director, for participation in the bi-annual European Choir Tour (2019).</li>
+        <li>Concert host countries included:</li>
+        <ol style="text-align: left; padding-left: 40px; margin-top: 5px;">
+            <li>London</li>
+            <li>France</li>
+            <li>Switzerland</li>
+            <li>Austria</li>
+            <li>Italy</li>
+            <li>Germany</li>
+        </ol>
+    </ul>
+</div>
+```
 
 
 <!-- ### Footer
 
-Last updated: Dec 2024 -->
+Last updated: December 2024 -->

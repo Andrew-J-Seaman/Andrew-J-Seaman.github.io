@@ -2,9 +2,9 @@
   {
     "objectID": "competition.html",
     "href": "competition.html",
-    "title": "about me",
+    "title": "Competition",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
       "Competition"
     ]
@@ -124,9 +124,9 @@
   {
     "objectID": "story_telling.html",
     "href": "story_telling.html",
-    "title": "About me",
+    "title": "Story Telling",
     "section": "",
-    "text": "I was born and raised in Orem, UT all my life.\n\n\n\nSince beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
       "Story Telling"
     ]
@@ -144,9 +144,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "about me",
+    "title": "Home",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "I was born and raised in Orem, UT all my life.\n\n\n\nSince beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
   },
   {
     "objectID": "index.html#title-2-header",
@@ -180,9 +180,9 @@
   {
     "objectID": "cleansing.html",
     "href": "cleansing.html",
-    "title": "about me",
+    "title": "Cleansing",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
       "Data Cleansing"
     ]
@@ -200,9 +200,9 @@
   {
     "objectID": "exploration.html",
     "href": "exploration.html",
-    "title": "about me",
+    "title": "Exploration",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
       "Data Exploration"
     ]
@@ -277,21 +277,21 @@
     "href": "resume.html",
     "title": "Andrew Seaman’s CV",
     "section": "",
-    "text": "Business Analyst | Computer Scientist | Data Scientist | Public Speaker\n\n\nLinkedIn Phone Email"
+    "text": "Business Analyst | Computer & Data Scientist | Public Speaker\n\n\nLinkedIn Phone Email"
   },
   {
     "objectID": "resume.html#currently",
     "href": "resume.html#currently",
     "title": "Andrew Seaman’s CV",
     "section": "Currently",
-    "text": "Currently\nOn-campus student of Brigham Young University - Idaho dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in a varied field of interests.\nPersonal passions include music, sports, computer science, and other areas of interest.\nPursuing a Bachelors of Science, Business Analytics and a Minor, Computer Science.\nExpected graduation: Fall 2026.\n\nSpecialized in\n\n\n\n\nTopics\n\n\n\n\n\n\n• Business Analytics • Data Science • Computer Science\n\n\n\n\n\n\nProgramming Languages\n\n\n\n\n\n\n• Python • C# • MySQL • R • Markdown (Quarto)\n\n\n\n\n\n\nTechnologies\n\n\n\n\n\n\n• Excel • Google Sheets\n\n\n\n\n\n\nSoft Skills\n\n\n\n\n\n\n• Public Speaking • Spanish Fluency• Writing • Organization• Teamwork• Conflict Resolution\n\n\n\n\n\n\n\nResearch interests\n\nMachine learning\nData structures\nAdvanced data modeling and predictive analysis for business efficiency"
+    "text": "Currently\n\n\n    \n    \n        Institution:\n        Brigham Young University - Idaho\n    \n    \n    \n        Academic Year:\n        Junior, On-campus, Undergrad\n    \n    \n    \n        Expected graduation:\n        Fall of 2026\n    \n    \n    \n        Dedicated to studying, diligence, and hard work. Intrinsically motivated towards excellence in menial and major tasks desiring personal success for public gain. Creativity, discovery, and personal interest drive a habit of learning at all times in various fields of interests.\n    \n\n\n\n\n    \n    \n        Personal Passions\n    \n    \n    \n        Music\n        Art collecting\n        Participation in sports\n        Computer science\n        Systemization and efficiency exploration\n    \n\n\n\n\n    \n    \n        Degrees in Pursuit\n    \n    \n    \n        Bachelor of Science in Business Analytics\n        Minor in Computer Science\n    \n\n\nSpecialized in\n\n\n    \n    \n    \n        \n            Topics\n        \n        \n            Business Analytics\n            Data Science\n            Computer Science\n        \n    \n\n    \n    \n        \n            Programming Languages\n        \n        \n            Python\n            C#\n            MySQL\n            R\n            Markdown (HTML5; Quarto)\n            CSS\n        \n    \n\n    \n    \n        \n            Technologies\n        \n        \n            Excel\n            Google Sheets\n        \n    \n\n    \n    \n        \n            Soft Skills\n        \n        \n            Public Speaking\n            Spanish Fluency\n            Writing\n            Organization\n            Teamwork\n            Conflict Resolution\n        \n    \n\n\n\nResearch interests\n\n\n    \n        Machine learning\n        Data structures\n        Advanced data modeling and predictive analysis for business efficiency"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Andrew Seaman’s CV",
     "section": "Education",
-    "text": "Education\n\n\n\n\nBrigham Young University - Idaho\n\n\nIdaho, Rexburg\n\n\n\n\nBachelors of Science, Business Analytics\n\n\nFall 2019 - Present\n\n\n\n\nMinor, Computer Science\n\n\n\n\n\n\n• Junior, On-Campus student • Sales Society, Men’s Choir, Beginning Orchestra\n\n\n\n\n\n\n\n\n\n\nOrem High School\n\n\nUtah, Orem\n\n\n\n\nHigh School Diploma\n\n\nSep 2016 - May 2019\n\n\n\n\n• GPA: 3.97, Graduated with Honors • National Honors Society (2015-2019)\n\n\n\n\n\n\n• Cross Country Team, Club Soccer• Advanced Choir, Drama• Spanish, French, AP and Honors Classes."
+    "text": "Education\n\n    \n    \n        \n        \n            Brigham Young University - Idaho\n            Rexburg, Idaho\n        \n        \n        \n            Bachelor of Science in Business Analytics\n            Fall 2019 - Present\n        \n        \n        \n            Junior, On-Campus Student\n            Active in Sales Society, Men’s Choir, and Beginning Orchestra\n            Minor in Computer Science\n        \n    \n\n\n    \n    \n        \n        \n            Orem High School\n            Orem, Utah\n        \n        \n        \n            High School Diploma\n            September 2016 - May 2019\n        \n        \n        \n            GPA: 3.97, Graduated with Honors\n            Member of National Honors Society (2015-2019)\n            Activities: Cross Country Team, Club Soccer, Advanced Choir, Drama\n            Completed Spanish, French, AP, and Honors Classes"
   },
   {
     "objectID": "resume.html#awards",
@@ -350,9 +350,9 @@
   {
     "objectID": "ml.html",
     "href": "ml.html",
-    "title": "about me",
+    "title": "Machine Learning",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
       "Machine Learning"
     ]
@@ -468,9 +468,9 @@
   {
     "objectID": "full_stack.html",
     "href": "full_stack.html",
-    "title": "about me",
+    "title": "Full Stack",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
       "Full Stack"
     ]
@@ -490,21 +490,21 @@
     "href": "resume.html#work-experience",
     "title": "Andrew Seaman’s CV",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\n\n\nVantage Marketing\n\n\nSouth Dakota & Illinois\n\n\n\n\nSales account manager & Recruiter\n\n\nNov 2023 - Present\n\n\n\n\n• Engaged in active recruitment. • Performing door-to-door sales for Insight Pest Control. • Team historically produces 2.5 million in serviced revenue.\n\n\n\n\n\n\n\n\n\n\nGreenix Pest Control\n\n\nDelaware & Pennsylvania\n\n\n\n\nSales account manager\n\n\nJul 2023 - Aug 2023\n\n\n\n\n• Executed door-to-door sales. • Team collectively produced 1.2 million in serviced revenue.\n\n\n\n\n\n\n\n\n\n\nPointe Marketing\n\n\nMaryland & Virginia\n\n\n\n\nSales account manager\n\n\nMar 2023 - Jul 2023\n\n\n\n\n• Executed door-to-door sales for Frontline Pest Control. • Team collectively produced 1.8 million in serviced revenue.\n\n\n\n\n\n\n\n\n\n\nMalawi’s Pizza\n\n\nOrem, UT\n\n\n\n\nDishwasher, Busser, Line Cook, Cashier\n\n\nJun 2015 - Oct 2017\n\n\n\n\n• Cleaned dishes in a high paced environment. • Made food in several stations (pizza, pasta, salad). • Trained in cashiering.\n\n\n\n\n\n\n\n\n\n\nThe Bella Bazar\n\n\nLehi, UT\n\n\n\n\nExecutive Assistant\n\n\nJan 2015 - Dec 2016\n\n\n\n\n• Streamlined setup processes • Improved customer service standards• Ensured proper food handling• Upheld sanitation protocols."
+    "text": "Work Experience\n\n\n    \n    \n        Vantage Marketing\n        Sioux Falls, South Dakota & Orem, Utah\n    \n    \n    \n        Sales Account Manager & Recruiter\n        November 2023 - Present\n    \n    \n    \n        Engaged in active recruitment for top-performing sales team members.\n        Performed door-to-door sales for Insight Pest Control.\n        Contributed to a team that historically produces $2.5 million in serviced revenue annually.\n    \n\n\n\n\n    \n    \n        Greenix Pest Control\n        Delaware & Pennsylvania\n    \n    \n    \n        Sales Account Manager\n        July 2023 - August 2023\n    \n    \n    \n        Executed door-to-door sales with a focus on customer service and relationship building.\n        Collaborated with a team that collectively produced $1.2 million in serviced revenue.\n    \n\n\n\n\n    \n    \n        Pointe Marketing\n        Maryland & Virginia\n    \n    \n    \n        Sales Account Manager\n        March 2023 - July 2023\n    \n    \n    \n        Executed door-to-door sales for Frontline Pest Control.\n        Contributed to a team that collectively produced $1.8 million in serviced revenue.\n    \n\n\n\n\n    \n    \n        Malawi's Pizza\n        Orem, Utah\n    \n    \n    \n        Dishwasher, Busser, Line Cook, Cashier\n        June 2015 - October 2017\n    \n    \n    \n        Cleaned dishes in a high-paced environment.\n        Prepared food at multiple stations, including pizza, pasta, and salad.\n        Trained in cashier operations, handling payments and customer interactions.\n    \n\n\n\n\n    \n    \n        The Bella Bazar\n        Lehi, Utah\n    \n    \n    \n        Executive Assistant\n        January 2015 - December 2016\n    \n    \n    \n        Streamlined setup processes.\n        Improved customer service standards.\n        Ensured proper food handling and upheld sanitation protocols."
   },
   {
     "objectID": "resume.html#service",
     "href": "resume.html#service",
     "title": "Andrew Seaman’s CV",
     "section": "Service",
-    "text": "Service\n\n\n\n\nPennsylvania Philadelphia Mission\n\n\n\n\nSep 2020 - Oct 2022\n\n\n\n\nThe Church of Jesus Christ of Latter-day Saints\n\n\n\n\n\n\nVolunteer Minister - Spanish Speaking\n\n\n\n\n\n\n• Commissioned by the President of The Church of Jesus Christ of Latter-day Saints. Relocated frequently to serve communities and primarily engage in proselytizing for a two-year period.\n\n\n\n\n\n\n• Directed by President Daniel F. Dunnigan, and President Justin Harding, formerly Chief of Staff to Utah Governor Gary Herbert.\n\n\n\n\n\n\n\n\n\n\nYucatan, Mexico\n\n\n\n\nJul 2018\n\n\n\n\nHumanitarian Especially for Youth\n\n\n\n\n\n\nVolunteer Builder - Spanish Speaking\n\n\n\n\n\n\n• Played a key role in construction of a school’s foundation alongside local workers for young and abused girls reclaimed from abusive families for protection and success.\n\n\n\n\n\n\n\n\n\n\nOrem, UT\n\n\n\n\nJan 2012 - Dec 2018\n\n\n\n\nThe Boy Scouts of America (BSA)\n\n\n\n\n\n\nEagle Scout\n\n\n\n\n\n\n• Achieved esteemed rank of Eagle Scout after 7 years (December 2018). Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen."
+    "text": "Service\n\n\n    \n    \n        The Church of Jesus Christ of Latter-day Saints\n        Pennsylvania, New Jersey & Delaware\n    \n    \n    \n        Full-Time Volunteer Minister - Spanish Speaking\n        September 2020 - October 2022\n    \n    \n    \n        Commissioned to serve communities, frequently relocating to assist in proselytizing efforts.\n        Collaborated with local leaders and communities to support humanitarian initiatives.\n        Directed under leadership of President Daniel F. Dunnigan and President Justin Harding.\n    \n\n\n\n\n    \n    \n        Humanitarian Especially for Youth\n        Merida, Yucatan, México\n    \n    \n    \n        Volunteer Builder - Spanish Speaking\n        July 2018\n    \n    \n    \n        Played a key role in construction of a school's foundation alongside local workers.\n        Supported young and abused girls reclaimed from abusive families for protection and success.\n    \n\n\n\n\n    \n    \n        The Boy Scouts of America (BSA)\n        Orem, Utah\n    \n    \n    \n        Eagle Scout\n        January 2012 - December 2018\n    \n    \n    \n        Achieved esteemed rank of Eagle Scout after 7 years (December 2018).\n        Earned merit badges through skill development and community engagement. These experiences contributed to enrichment as a citizen."
   },
   {
     "objectID": "resume.html#extra-curricular",
     "href": "resume.html#extra-curricular",
     "title": "Andrew Seaman’s CV",
     "section": "Extra Curricular",
-    "text": "Extra Curricular\n\n\n\n\nOrem, UT & Rexburg, ID\n\n\n\n\nSep 2013 - Apr 2020\n\n\n\n\nChoral Artist\n\n\n\n\n\n\nTennor Vocalist\n\n\n\n\n\n\n• Involved in 6 choirs; Institutions (3): Canyon View Jr. High School, Orem High School, Brigham Young University - Idaho.\n\n\n\n\n\n\n\n\n\n\nUT & European Nations\n\n\n\n\nSep 2018 - Jul 2019\n\n\n\n\nThe Utah Ambassadors of Music\n\n\n\n\n\n\nEuropean Choir Tour Nominee & Participant\n\n\n\n\n\n\n• Selected as a three-times nominee for The Utah Ambassadors of Music.\n\n\n\n\n\n\n• Nominated by Sterling Keys, High School choir director, for participation in bi-annual European Choir Tour (2019).\n\n\n\n\n\n\n• Concert host countries include: London, France, Switzerland, Austria, Italy, and Germany."
+    "text": "Extra Curricular\n\n\n    \n    \n        Choral Artist\n        Orem, Utah & Rexburg, Idaho\n    \n    \n    \n        Tenor Vocalist\n        September 2013 - April 2020\n    \n    \n    \n        Involved in 6 choirs; Institutions (3):\n    \n    \n    \n        Canyon View Jr. High School\n        Orem High School\n        Brigham Young University - Idaho\n    \n\n\n\n\n    \n    \n        The Utah Ambassadors of Music\n        Utah, USA & European Nations\n    \n    \n    \n        European Choir Tour Nominee & Participant\n        September 2018 - July 2019\n    \n    \n    \n        Selected as a three-time nominee for The Utah Ambassadors of Music.\n        Nominated by Sterling Keys, high school choir director, for participation in the bi-annual European Choir Tour (2019).\n        Concert host countries included:\n        \n            London\n            France\n            Switzerland\n            Austria\n            Italy\n            Germany"
   },
   {
     "objectID": "story_telling.html#hometown",
@@ -525,5 +525,19 @@
     "crumbs": [
       "Story Telling"
     ]
+  },
+  {
+    "objectID": "index.html#hometown",
+    "href": "index.html#hometown",
+    "title": "Home",
+    "section": "",
+    "text": "I was born and raised in Orem, UT all my life."
+  },
+  {
+    "objectID": "index.html#travel---locales",
+    "href": "index.html#travel---locales",
+    "title": "Home",
+    "section": "",
+    "text": "Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
   }
 ]
