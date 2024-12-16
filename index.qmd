@@ -4,7 +4,16 @@ subtitle: "my data science portfolio"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+# Where I'm From
+## Hometown
+I was born and raised in Orem, UT all my life. 
+
+## Travel - Locales
+Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho. 
+
+I've also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.
+
+### Travel - Impact
+Since traveling, and through simple personal growth, I've come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
