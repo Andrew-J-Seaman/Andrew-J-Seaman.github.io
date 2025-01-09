@@ -1,12 +1,36 @@
 [
   {
-    "objectID": "story_telling.html",
-    "href": "story_telling.html",
-    "title": "Story Telling",
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "Exploration",
     "section": "",
     "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
-      "Story Telling"
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html",
+    "href": "Cleansing_Exploration/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project3.html",
+    "href": "Cleansing_Exploration/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "Full Stack",
+    "section": "",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack"
     ]
   },
   {
@@ -21,56 +45,53 @@
     ]
   },
   {
-    "objectID": "Competition/project4.html",
-    "href": "Competition/project4.html",
+    "objectID": "Competition/project3.html",
+    "href": "Competition/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Competition/project5.html",
-    "href": "Competition/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project1.html",
-    "href": "Cleansing_Exploration/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project4.html",
-    "href": "Cleansing_Exploration/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project5.html",
-    "href": "Cleansing_Exploration/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "Competition",
+    "objectID": "story_telling.html",
+    "href": "story_telling.html",
+    "title": "Story Telling",
     "section": "",
     "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
-      "Competition"
+      "Story Telling"
     ]
   },
   {
-    "objectID": "Full_Stack/project2.html",
-    "href": "Full_Stack/project2.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me",
+    "section": "",
+    "text": "I was born and raised in Orem, UT all my life.\n\n\n\nSince beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
+  },
+  {
+    "objectID": "index.html#hometown",
+    "href": "index.html#hometown",
+    "title": "About me",
+    "section": "",
+    "text": "I was born and raised in Orem, UT all my life."
+  },
+  {
+    "objectID": "index.html#travel---locales",
+    "href": "index.html#travel---locales",
+    "title": "About me",
+    "section": "",
+    "text": "Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
+  },
+  {
+    "objectID": "Full_Stack/project1.html",
+    "href": "Full_Stack/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 1"
+    ]
   },
   {
     "objectID": "Full_Stack/project3.html",
@@ -80,54 +101,11 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Machine_Learning/project1.html",
-    "href": "Machine_Learning/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Machine_Learning/project4.html",
-    "href": "Machine_Learning/project4.html",
+    "objectID": "Story_Telling/project2.html",
+    "href": "Story_Telling/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Machine_Learning/project5.html",
-    "href": "Machine_Learning/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project2.html",
-    "href": "Cleansing_Projects/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project3.html",
-    "href": "Cleansing_Projects/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Story_Telling/project1.html",
-    "href": "Story_Telling/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 1"
-    ]
   },
   {
     "objectID": "Story_Telling/project4.html",
@@ -144,13 +122,31 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "full_stack.html",
-    "href": "full_stack.html",
-    "title": "Full Stack",
+    "objectID": "Cleansing_Projects/project1.html",
+    "href": "Cleansing_Projects/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Cleansing",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Projects/project3.html",
+    "href": "Cleansing_Projects/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "Machine Learning",
     "section": "",
     "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack"
+      "Machine Learning"
     ]
   },
   {
@@ -196,28 +192,53 @@
     "text": "Extra Curricular\n\n\n    \n    \n        Choral Artist\n        Orem, Utah & Rexburg, Idaho\n    \n    \n    \n        Tenor Vocalist\n        September 2013 - April 2020\n    \n    \n    \n        Involved in 6 choirs; Institutions (3):\n    \n    \n    \n        Canyon View Jr. High School\n        Orem High School\n        Brigham Young University - Idaho\n    \n\n\n\n\n    \n    \n        The Utah Ambassadors of Music\n        Utah, USA & European Nations\n    \n    \n    \n        European Choir Tour Nominee & Participant\n        September 2018 - July 2019\n    \n    \n    \n        Selected as a three-time nominee for The Utah Ambassadors of Music.\n        Nominated by Sterling Keys, high school choir director, for participation in the bi-annual European Choir Tour (2019).\n        Concert host countries included:\n        \n            London\n            France\n            Switzerland\n            Austria\n            Italy\n            Germany"
   },
   {
-    "objectID": "exploration.html",
-    "href": "exploration.html",
-    "title": "Exploration",
+    "objectID": "Machine_Learning/project1.html",
+    "href": "Machine_Learning/project1.html",
+    "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Data Exploration"
+      "Machine Learning",
+      "Project 1"
     ]
   },
   {
-    "objectID": "Story_Telling/project3.html",
-    "href": "Story_Telling/project3.html",
+    "objectID": "Machine_Learning/project3.html",
+    "href": "Machine_Learning/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Story_Telling/project2.html",
-    "href": "Story_Telling/project2.html",
+    "objectID": "Machine_Learning/project5.html",
+    "href": "Machine_Learning/project5.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Machine_Learning/project4.html",
+    "href": "Machine_Learning/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Machine_Learning/project2.html",
+    "href": "Machine_Learning/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "cleansing.html",
+    "href": "cleansing.html",
+    "title": "Cleansing",
+    "section": "",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Cleansing"
+    ]
   },
   {
     "objectID": "Cleansing_Projects/project5.html",
@@ -234,29 +255,29 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Cleansing_Projects/project1.html",
-    "href": "Cleansing_Projects/project1.html",
+    "objectID": "Cleansing_Projects/project2.html",
+    "href": "Cleansing_Projects/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Story_Telling/project3.html",
+    "href": "Story_Telling/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Story_Telling/project1.html",
+    "href": "Story_Telling/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Data Cleansing",
+      "Story Telling",
       "Project 1"
     ]
-  },
-  {
-    "objectID": "Machine_Learning/project3.html",
-    "href": "Machine_Learning/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Machine_Learning/project2.html",
-    "href": "Machine_Learning/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Full_Stack/project5.html",
@@ -273,64 +294,32 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Full_Stack/project1.html",
-    "href": "Full_Stack/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About me",
-    "section": "",
-    "text": "I was born and raised in Orem, UT all my life.\n\n\n\nSince beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
-  },
-  {
-    "objectID": "index.html#hometown",
-    "href": "index.html#hometown",
-    "title": "About me",
-    "section": "",
-    "text": "I was born and raised in Orem, UT all my life."
-  },
-  {
-    "objectID": "index.html#travel---locales",
-    "href": "index.html#travel---locales",
-    "title": "About me",
-    "section": "",
-    "text": "Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project3.html",
-    "href": "Cleansing_Exploration/project3.html",
+    "objectID": "Full_Stack/project2.html",
+    "href": "Full_Stack/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Cleansing_Exploration/project2.html",
-    "href": "Cleansing_Exploration/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "ml.html",
-    "href": "ml.html",
-    "title": "Machine Learning",
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "Competition",
     "section": "",
     "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
     "crumbs": [
-      "Machine Learning"
+      "Competition"
     ]
   },
   {
-    "objectID": "Competition/project3.html",
-    "href": "Competition/project3.html",
+    "objectID": "Competition/project5.html",
+    "href": "Competition/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Competition/project4.html",
+    "href": "Competition/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
@@ -343,13 +332,24 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "cleansing.html",
-    "href": "cleansing.html",
-    "title": "Cleansing",
+    "objectID": "Cleansing_Exploration/project5.html",
+    "href": "Cleansing_Exploration/project5.html",
+    "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project4.html",
+    "href": "Cleansing_Exploration/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project2.html",
+    "href": "Cleansing_Exploration/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   }
 ]
