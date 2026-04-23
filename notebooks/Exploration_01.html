@@ -614,7 +614,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </div>
 </div>
-<div id="cell-7" class="cell" data-outputid="14945286-5435-40d0-ac9d-e79341920ec8" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:466}}" data-execution_count="159">
+<div id="cell-7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:466}}" data-outputid="14945286-5435-40d0-ac9d-e79341920ec8" data-execution_count="159">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Next, display a technical summary of the data to determine the data types of each column, and which columns have missing data.</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#quick summary</span></span>
@@ -1486,7 +1486,7 @@ alt.Chart(employees).mark_boxplot().encode(
 <p>Let’s create a barchart showing the count of each movie rating by using Altair’s aggregation capabilities.</p>
 <p>In <a href="https://altair-viz.github.io/getting_started/starting.html#data-transformation-aggregation">this example</a>, we see the x axis being set to a feature called <code>a</code>, and the y axis set to the <code>average()</code> of a feature called <code>b</code>.</p>
 <p>In our case, we want the x axis to be set to <code>rating</code> and the y axis to be the <code>count()</code> of <code>rating</code>.</p>
-<div id="cell-20" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:387}}" data-outputid="8fe96104-2808-42bb-d634-147a75c376f8" data-execution_count="165">
+<div id="cell-20" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:387}}" data-outputid="a0cfbf98-f918-49cc-8f11-3fe8e20f6eb0" data-execution_count="172">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use Altair to create a bar chart comparing the count of each movie rating</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Barplot:</span></span>
@@ -1505,27 +1505,38 @@ alt.Chart(employees).mark_boxplot().encode(
 <span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>alt.Chart(frequency_df).mark_bar().encode(</span>
 <span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">'rating'</span>,</span>
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">'count'</span></span>
-<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="165">
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a><span class="co">#alternatively: "presentation quality" visualization</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a><span class="co"># alt.Chart(mpaa_movies).mark_bar().encode(</span></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="co">#     alt.X('rating', title='MPAA Rating', sort=['G', 'PG', 'PG-13', 'R', 'NC-17']),</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a><span class="co">#     alt.Y('count(rating)', title='Number of Movies on Netflix'),</span></span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a><span class="co">#     alt.Color('rating', legend=None)</span></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a><span class="co"># ).properties(</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a><span class="co">#     title='Netflix Movie Ratings',</span></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a><span class="co">#     width=600</span></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="172">
 
 <style>
-  #altair-viz-aeb9341448c04d19923b7a420ac352ea.vega-embed {
+  #altair-viz-1041fc35604745fabf031df4cd69a6f9.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-aeb9341448c04d19923b7a420ac352ea.vega-embed details,
-  #altair-viz-aeb9341448c04d19923b7a420ac352ea.vega-embed details summary {
+  #altair-viz-1041fc35604745fabf031df4cd69a6f9.vega-embed details,
+  #altair-viz-1041fc35604745fabf031df4cd69a6f9.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-aeb9341448c04d19923b7a420ac352ea"></div>
+<div id="altair-viz-1041fc35604745fabf031df4cd69a6f9"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-aeb9341448c04d19923b7a420ac352ea") {
-      outputDiv = document.getElementById("altair-viz-aeb9341448c04d19923b7a420ac352ea");
+    if (outputDiv.id !== "altair-viz-1041fc35604745fabf031df4cd69a6f9") {
+      outputDiv = document.getElementById("altair-viz-1041fc35604745fabf031df4cd69a6f9");
     }
 
     const paths = {
@@ -1612,7 +1623,13 @@ ax.set_xlabel("Job title")</code></pre>
 <p>In particular, we want a “count plot” that will display a count of movie ratings.</p>
 <div id="cell-25" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:525}}" data-outputid="2c679b19-a039-4590-9411-3f66c4cf9319" data-execution_count="167">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use seaborn to create a count plot comparing the count of each movie rating</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>sns.catplot(data<span class="op">=</span>mpaa_movies, x<span class="op">=</span><span class="st">'rating'</span>, kind<span class="op">=</span><span class="st">'count'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>sns.catplot(data<span class="op">=</span>mpaa_movies, x<span class="op">=</span><span class="st">'rating'</span>, kind<span class="op">=</span><span class="st">'count'</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co">#alternatively: "presentation quality" visualization</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># ax = sns.countplot(data=mpaa_movies, x='rating', order=['G', 'PG', 'PG-13', 'R', 'NC-17'])</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co"># ax.set_title("Netflix Movie Ratings")</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># ax.set_ylabel("Number of Movies on Netflix")</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="co"># ax.set_xlabel("MPAA Rating")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1665,8 +1682,11 @@ ax.set_xlabel("Job title")</code></pre>
 <section id="part-5-interpretation-and-conclusions" class="level1">
 <h1>Part 5: Interpretation and Conclusions</h1>
 <p>Now that you’ve seen the data, what is your conclusion? Is the watchdog group correct that Netflix has more movies for adults than for children? Are there any caveats you’d include in your analysis?</p>
+<p>Write your summary here:</p>
+<blockquote class="blockquote">
 <p>In the year 2019, Netflix hosted more than twice as many movies for adults than for children. It was noted above, not all PG-13 movies are suitable for children while some are. Such <em>tossup</em> movies were excluded in the earlier comparison totalling 28.2% of the total movies. A deeper analysis would require a re-rating of the PG-13 films so they could be clearly divided between the adult and child groups. However, it is doubtful a majority of those films would be categorized as movies for children.</p>
-<div id="cell-30" class="cell" data-outputid="11b65ac5-eb79-473a-cdd7-dc3b1154fe90" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-execution_count="169">
+</blockquote>
+<div id="cell-30" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="11b65ac5-eb79-473a-cdd7-dc3b1154fe90" data-execution_count="169">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#rating groups</span></span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>adult_ratings <span class="op">=</span> [<span class="st">'R'</span>, <span class="st">'NC-17'</span>]</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>child_ratings <span class="op">=</span> [<span class="st">'G'</span>, <span class="st">'PG'</span>]</span>
