@@ -1,5 +1,85 @@
 [
   {
+    "objectID": "story_telling.html",
+    "href": "story_telling.html",
+    "title": "Story Telling",
+    "section": "",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Projects/project3.html",
+    "href": "Cleansing_Projects/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Projects/project5.html",
+    "href": "Cleansing_Projects/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "notebooks/Exploration_01.html#mpaa-movie-ratings",
+    "href": "notebooks/Exploration_01.html#mpaa-movie-ratings",
+    "title": "Data Exploration 01",
+    "section": "MPAA Movie Ratings:",
+    "text": "MPAA Movie Ratings:\n\nG: All ages admitted.\nPG: Some material may not be suitable for children.\nPG-13: Some material may be inappropriate for children under 13.\nR: Under 17 requires accompanying parent or adult guardian\nNC-17: No One 17 and Under Admitted\n\nMost people would consider G and PG as ratings suitable for children. However, not everyone would agree that a PG-13 movie is necssarily a children’s movie. It is up to you to decide how to handle this."
+  },
+  {
+    "objectID": "notebooks/Exploration_01.html#part-1-import-pandas",
+    "href": "notebooks/Exploration_01.html#part-1-import-pandas",
+    "title": "Data Exploration 01",
+    "section": "Part 1: Import Pandas",
+    "text": "Part 1: Import Pandas\nThe pandas library is a python library used for data analysis and manipulation. It will provide the core functionality for most of what you do in the data exploration and preprocessing stages of most machine learning projects.\nPlease see this Getting Started Guide for information on the conventional way to import Pandas into your project, as well as other helpful tips for common Pandas tasks.\n\n# Part 1: Enter the code below to import Pandas according to the\n# conventional method.\nimport pandas as pd"
+  },
+  {
+    "objectID": "notebooks/Exploration_01.html#part-2-load-the-data",
+    "href": "notebooks/Exploration_01.html#part-2-load-the-data",
+    "title": "Data Exploration 01",
+    "section": "Part 2: Load the data",
+    "text": "Part 2: Load the data\nThe dataset for this exploration is stored at the following url:\nhttps://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv\nThere are lots of ways to load data into your workspace. The easiest way in this case is to ask Pandas to do it for you.\n\nInitial Data Analysis\nOnce you’ve loaded the data, it’s a good idea to poke around a little bit to find out what you’re dealing with.\nSome questions you might ask include:\n\nWhat does the data look like?\nWhat kind of data is in each column?\nDo any of the columns have missing values?\n\n\n# Part 2: Load the dataset into a Pandas dataframe.\nnetflix = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv\")\n\n\n# Then, explore the data by seeing what the first few rows look like.\nnetflix.head(5) #alternatively, '5' is not needed\n\n\n    \n\n\n\n\n\n\nshow_id\ntype\ntitle\ndirector\ncast\ncountry\ndate_added\nrelease_year\nrating\nduration\nlisted_in\ndescription\n\n\n\n\n0\n81145628\nMovie\nNorm of the North: King Sized Adventure\nRichard Finn, Tim Maltby\nAlan Marriott, Andrew Toth, Brian Dobson, Cole...\nUnited States, India, South Korea, China\nSeptember 9, 2019\n2019\nTV-PG\n90 min\nChildren & Family Movies, Comedies\nBefore planning an awesome wedding for his gra...\n\n\n1\n80117401\nMovie\nJandino: Whatever it Takes\nNaN\nJandino Asporaat\nUnited Kingdom\nSeptember 9, 2016\n2016\nTV-MA\n94 min\nStand-Up Comedy\nJandino Asporaat riffs on the challenges of ra...\n\n\n2\n70234439\nTV Show\nTransformers Prime\nNaN\nPeter Cullen, Sumalee Montano, Frank Welker, J...\nUnited States\nSeptember 8, 2018\n2013\nTV-Y7-FV\n1 Season\nKids' TV\nWith the help of three human allies, the Autob...\n\n\n3\n80058654\nTV Show\nTransformers: Robots in Disguise\nNaN\nWill Friedle, Darren Criss, Constance Zimmer, ...\nUnited States\nSeptember 8, 2018\n2016\nTV-Y7\n1 Season\nKids' TV\nWhen a prison ship crash unleashes hundreds of...\n\n\n4\n80125979\nMovie\n#realityhigh\nFernando Lebrija\nNesta Cooper, Kate Walsh, John Michael Higgins...\nUnited States\nSeptember 8, 2017\n2017\nTV-14\n99 min\nComedies\nWhen nerdy high schooler Dani finally attracts...\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n    \n  \n\n\n\n# Next, display a technical summary of the data to determine the data types of each column, and which columns have missing data.\n\n#quick summary\nnetflix.describe(include = 'all') #alternatively, `netflix.info()` could be used.\n\n\n    \n\n\n\n\n\n\nshow_id\ntype\ntitle\ndirector\ncast\ncountry\ndate_added\nrelease_year\nrating\nduration\nlisted_in\ndescription\n\n\n\n\ncount\n6.234000e+03\n6234\n6234\n4265\n5664\n5758\n6223\n6234.00000\n6224\n6234\n6234\n6234\n\n\nunique\nNaN\n2\n6172\n3301\n5469\n554\n1524\nNaN\n14\n201\n461\n6226\n\n\ntop\nNaN\nMovie\nThe Silence\nRaúl Campos, Jan Suter\nDavid Attenborough\nUnited States\nJanuary 1, 2020\nNaN\nTV-MA\n1 Season\nDocumentaries\nA surly septuagenarian gets another chance at ...\n\n\nfreq\nNaN\n4265\n3\n18\n18\n2032\n122\nNaN\n2027\n1321\n299\n3\n\n\nmean\n7.670368e+07\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n2013.35932\nNaN\nNaN\nNaN\nNaN\n\n\nstd\n1.094296e+07\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n8.81162\nNaN\nNaN\nNaN\nNaN\n\n\nmin\n2.477470e+05\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n1925.00000\nNaN\nNaN\nNaN\nNaN\n\n\n25%\n8.003580e+07\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n2013.00000\nNaN\nNaN\nNaN\nNaN\n\n\n50%\n8.016337e+07\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n2016.00000\nNaN\nNaN\nNaN\nNaN\n\n\n75%\n8.024489e+07\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n2018.00000\nNaN\nNaN\nNaN\nNaN\n\n\nmax\n8.123573e+07\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n2020.00000\nNaN\nNaN\nNaN\nNaN\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n    \n  \n\n\n\n# Tenchincal summary continued.\n\n#column name: (# of uniques) and unique values\nstars = \"***********************************\"\n\nno_split = ['title', 'date_added', 'description']\n\nprint(f\"{stars}\\nCOUNT OF UNIQUES\\n{stars}\") #header\nfor col in netflix.columns:\n    if col in no_split:\n        print(f\"{col}: {netflix[col].nunique()}\")\n    elif netflix[col].dtype == 'object' and netflix[col].str.contains(',').any():\n        exploded = netflix[col].str.split(', ').explode().str.strip()\n        print(f\"{col}: {exploded.nunique()}\")\n    else:\n        print(f\"{col}: {netflix[col].nunique()}\")\n\nprint(\"\\n\\n\")\n\nprint(f\"{stars}\\nCOUNT OF UNIQUES with UNIQUE VALUES\\n{stars}\") #header\nfor col in netflix.columns:\n    if col in no_split:\n        print(f\"{col}: ({netflix[col].nunique()}) \\n{netflix[col].unique()}\\n\\n\")\n    elif netflix[col].dtype == 'object' and netflix[col].str.contains(',').any():\n        exploded = netflix[col].str.split(', ').explode().str.strip()\n        print(f\"{col}: ({exploded.nunique()}) \\n{exploded.unique()}\\n\\n\")\n    else:\n        print(f\"{col}: ({netflix[col].nunique()}) \\n{netflix[col].unique()}\\n\\n\")\n\n***********************************\nCOUNT OF UNIQUES\n***********************************\nshow_id: 6234\ntype: 2\ntitle: 6172\ndirector: 3655\ncast: 27405\ncountry: 113\ndate_added: 1524\nrelease_year: 72\nrating: 14\nduration: 201\nlisted_in: 42\ndescription: 6226\n\n\n\n***********************************\nCOUNT OF UNIQUES with UNIQUE VALUES\n***********************************\nshow_id: (6234) \n[81145628 80117401 70234439 ... 80116008 70281022 70153404]\n\n\ntype: (2) \n['Movie' 'TV Show']\n\n\ntitle: (6172) \n['Norm of the North: King Sized Adventure' 'Jandino: Whatever it Takes'\n 'Transformers Prime' ... 'Maron'\n \"A Young Doctor's Notebook and Other Stories\" 'Friends']\n\n\ndirector: (3655) \n['Richard Finn' 'Tim Maltby' nan ... 'Seung-uk Jo' 'Andy Devonshire'\n 'Onur Ünlü']\n\n\ncast: (27405) \n['Alan Marriott' 'Andrew Toth' 'Brian Dobson' ... 'Margaret Clunie'\n 'Tim Steed' 'Matthew Perry']\n\n\ncountry: (113) \n['United States' 'India' 'South Korea' 'China' 'United Kingdom' 'Spain'\n 'Bulgaria' 'Canada' 'Chile' 'Denmark' 'Sweden' nan 'Netherlands'\n 'Belgium' 'France' 'Uruguay' 'United States,' 'Thailand' 'Pakistan'\n 'Turkey' 'Brazil' 'Italy' 'Indonesia' 'Ireland' 'Hong Kong' 'Morocco'\n 'Mexico' 'Vietnam' 'Argentina' 'Nigeria' 'Japan' 'Germany' 'Greece'\n 'Norway' 'Switzerland' 'United Arab Emirates' 'Lebanon' 'Cambodia'\n 'Russia' 'Poland' 'Israel' 'Australia' 'Portugal' 'Egypt' 'Taiwan'\n 'Austria' 'Czech Republic' 'Senegal' 'Soviet Union' 'Peru' 'Ukraine'\n 'Malaysia' 'South Africa' 'Nepal' 'Philippines' 'Serbia' 'Colombia'\n 'Singapore' 'Luxembourg' 'West Germany' 'Cayman Islands' 'New Zealand'\n 'Venezuela' 'Jordan' 'Saudi Arabia' 'Iceland' 'Poland,' 'Malta' 'Qatar'\n 'United Kingdom,' 'Iran' 'Finland' 'Iraq' 'Liechtenstein' 'Albania'\n 'Slovakia' 'Samoa' 'Ghana' 'Botswana' 'Hungary' 'Guatemala' 'Malawi'\n 'Paraguay' 'Somalia' 'Kenya' 'Sudan' 'Sri Lanka' 'Dominican Republic'\n 'Panama' 'Romania' 'Latvia' 'Uganda' 'Slovenia' 'Croatia' 'Montenegro'\n 'Bangladesh' 'Vatican City' 'East Germany' 'Afghanistan' 'Georgia'\n 'Namibia' 'Zimbabwe' 'Cuba' 'Azerbaijan' 'Mauritius' 'Nicaragua'\n 'Kazakhstan' 'Armenia' 'Mongolia' 'Bermuda' 'Ecuador' 'Syria' 'Kuwait'\n 'Cyprus']\n\n\ndate_added: (1524) \n['September 9, 2019' 'September 9, 2016' 'September 8, 2018' ...\n ' April 1, 2016' ' April 1, 2014' nan]\n\n\nrelease_year: (72) \n[2019 2016 2013 2017 2014 2015 2009 2012 2010 2018 2011 2004 2000 1983\n 1982 2006 2005 2002 1997 2008 2007 2003 1981 1991 1994 1988 1976 1973\n 1974 1989 1986 1984 1978 1998 1972 1979 1960 1959 2001 1995 1992 1990\n 1975 1985 1980 1970 1996 1967 1999 1987 1968 1993 2020 1958 1965 1956\n 1962 1955 1977 1945 1946 1942 1944 1947 1943 1969 1954 1966 1971 1964\n 1925 1963]\n\n\nrating: (14) \n['TV-PG' 'TV-MA' 'TV-Y7-FV' 'TV-Y7' 'TV-14' 'R' 'TV-Y' 'NR' 'PG-13' 'TV-G'\n 'PG' 'G' nan 'UR' 'NC-17']\n\n\nduration: (201) \n['90 min' '94 min' '1 Season' '99 min' '110 min' '60 min' '78 min'\n '95 min' '58 min' '62 min' '65 min' '61 min' '135 min' '98 min' '96 min'\n '79 min' '113 min' '80 min' '77 min' '112 min' '106 min' '102 min'\n '114 min' '125 min' '142 min' '133 min' '100 min' '86 min' '146 min'\n '10 min' '122 min' '126 min' '116 min' '130 min' '70 min' '128 min'\n '88 min' '108 min' '93 min' '64 min' '107 min' '92 min' '111 min'\n '103 min' '40 min' '85 min' '72 min' '45 min' '89 min' '24 min' '127 min'\n '163 min' '117 min' '42 min' '104 min' '75 min' '82 min' '38 min'\n '97 min' '81 min' '91 min' '152 min' '87 min' '121 min' '101 min'\n '119 min' '83 min' '182 min' '124 min' '63 min' '139 min' '171 min'\n '84 min' '69 min' '76 min' '41 min' '153 min' '141 min' '52 min'\n '137 min' '132 min' '157 min' '109 min' '105 min' '25 min' '71 min'\n '123 min' '67 min' '140 min' '138 min' '149 min' '47 min' '68 min'\n '148 min' '54 min' '151 min' '155 min' '162 min' '28 min' '160 min'\n '29 min' '57 min' '46 min' '73 min' '74 min' '118 min' '66 min' '14 min'\n '20 min' '115 min' '48 min' '168 min' '144 min' '161 min' '55 min'\n '56 min' '51 min' '50 min' '23 min' '205 min' '190 min' '131 min'\n '22 min' '59 min' '150 min' '159 min' '145 min' '158 min' '143 min'\n '154 min' '147 min' '129 min' '214 min' '136 min' '134 min' '44 min'\n '156 min' '30 min' '120 min' '209 min' '166 min' '200 min' '185 min'\n '36 min' '11 min' '53 min' '165 min' '164 min' '19 min' '177 min'\n '32 min' '18 min' '170 min' '187 min' '173 min' '12 min' '3 min'\n '176 min' '15 min' '49 min' '26 min' '37 min' '189 min' '201 min'\n '179 min' '191 min' '193 min' '192 min' '43 min' '172 min' '224 min'\n '27 min' '181 min' '178 min' '228 min' '34 min' '312 min' '174 min'\n '169 min' '35 min' '31 min' '180 min' '196 min' '167 min' '33 min'\n '203 min' '195 min' '2 Seasons' '5 Seasons' '3 Seasons' '7 Seasons'\n '4 Seasons' '8 Seasons' '6 Seasons' '9 Seasons' '14 Seasons' '10 Seasons'\n '12 Seasons' '15 Seasons' '11 Seasons' '13 Seasons']\n\n\nlisted_in: (42) \n['Children & Family Movies' 'Comedies' 'Stand-Up Comedy' \"Kids' TV\"\n 'Crime TV Shows' 'International TV Shows' 'Spanish-Language TV Shows'\n 'International Movies' 'Sci-Fi & Fantasy' 'Thrillers' 'Docuseries'\n 'Science & Nature TV' 'Action & Adventure' 'Dramas' 'Cult Movies'\n 'Independent Movies' 'Romantic Movies' 'Documentaries' 'Horror Movies'\n 'Romantic TV Shows' 'TV Comedies' 'TV Dramas' 'TV Thrillers'\n 'TV Mysteries' 'British TV Shows' 'Music & Musicals' 'Reality TV'\n 'TV Action & Adventure' 'Anime Features' 'Teen TV Shows'\n 'Faith & Spirituality' 'Korean TV Shows' 'Anime Series' 'LGBTQ Movies'\n 'TV Horror' 'Movies' 'Stand-Up Comedy & Talk Shows' 'TV Sci-Fi & Fantasy'\n 'Classic Movies' 'Sports Movies' 'TV Shows' 'Classic & Cult TV']\n\n\ndescription: (6226) \n['Before planning an awesome wedding for his grandfather, a polar bear king must take back a stolen artifact from an evil archaeologist first.'\n 'Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show.'\n 'With the help of three human allies, the Autobots once again protect Earth from the onslaught of the Decepticons and their leader, Megatron.'\n ...\n 'Nursery rhymes and original music for children accompanied by bright, playful animation engage and educate about numbers, shapes, colors and more.'\n \"Set during the Russian Revolution, this comic miniseries is based on a doctor's memories of his early career working in an out-of-the-way village.\"\n 'This hit sitcom follows the merry misadventures of six 20-something pals as they navigate the pitfalls of work, life and love in 1990s Manhattan.']"
+  },
+  {
+    "objectID": "notebooks/Exploration_01.html#part-3-filter-the-data",
+    "href": "notebooks/Exploration_01.html#part-3-filter-the-data",
+    "title": "Data Exploration 01",
+    "section": "Part 3: Filter the Data",
+    "text": "Part 3: Filter the Data\nSince we’re just interested in movies, we’ll need to filter out anything that isn’t a movie for our analysis. The type feature contains this information.\nOnce we have the subset, we should see how many rows it contains. There are a variety of ways to get the length of a data frame.\n\n# Use pandas's filtering abilitites to select the subset of data\n# that represents movies, then calculate how many rows are in the filtered data.\nmovies = netflix.query(\"type == 'Movie'\")\n\n#counts\nprint(f\"Movies/TV Shows: {len(netflix)}\")\nprint(f\"Movies: {len(movies)}\")\n\n#head\nmovies.head(5)\n\nMovies/TV Shows: 6234\nMovies: 4265\n\n\n\n    \n\n\n\n\n\n\nshow_id\ntype\ntitle\ndirector\ncast\ncountry\ndate_added\nrelease_year\nrating\nduration\nlisted_in\ndescription\n\n\n\n\n0\n81145628\nMovie\nNorm of the North: King Sized Adventure\nRichard Finn, Tim Maltby\nAlan Marriott, Andrew Toth, Brian Dobson, Cole...\nUnited States, India, South Korea, China\nSeptember 9, 2019\n2019\nTV-PG\n90 min\nChildren & Family Movies, Comedies\nBefore planning an awesome wedding for his gra...\n\n\n1\n80117401\nMovie\nJandino: Whatever it Takes\nNaN\nJandino Asporaat\nUnited Kingdom\nSeptember 9, 2016\n2016\nTV-MA\n94 min\nStand-Up Comedy\nJandino Asporaat riffs on the challenges of ra...\n\n\n4\n80125979\nMovie\n#realityhigh\nFernando Lebrija\nNesta Cooper, Kate Walsh, John Michael Higgins...\nUnited States\nSeptember 8, 2017\n2017\nTV-14\n99 min\nComedies\nWhen nerdy high schooler Dani finally attracts...\n\n\n6\n70304989\nMovie\nAutomata\nGabe Ibáñez\nAntonio Banderas, Dylan McDermott, Melanie Gri...\nBulgaria, United States, Spain, Canada\nSeptember 8, 2017\n2014\nR\n110 min\nInternational Movies, Sci-Fi & Fantasy, Thrillers\nIn a dystopian future, an insurance adjuster f...\n\n\n7\n80164077\nMovie\nFabrizio Copano: Solo pienso en mi\nRodrigo Toro, Francisco Schultz\nFabrizio Copano\nChile\nSeptember 8, 2017\n2017\nTV-MA\n60 min\nStand-Up Comedy\nFabrizio Copano takes audience participation t...\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n    \n  \n\n\n\nMPAA Ratings\nNow that we have only movies, let’s get a quick count of the values being used in the rating feature.\n\n# Determine the number of records for each value of the \"rating\" feature.\n# Remember to count the values in your subset only, not in the original dataframe.\nratings = movies['rating'].unique()\n\n#all ratings\nprint(f\"{stars}\\nRATING OPTIONS \\n{stars}\\n{ratings}\\n\\n\")\n\n#counts\nprint(f\"{stars}\\nMOVIE COUNTS by RATING \\n{stars}\")\nprint(f\"Total Movies: {len(movies)}\\n\")\n# for r in ratings:\n#   print(f\"{r}: {len(movies.query('rating == @r'))}\")\n#alternatively use:\nmovies['rating'].value_counts()\n\n***********************************\nRATING OPTIONS \n***********************************\n['TV-PG' 'TV-MA' 'TV-14' 'R' 'TV-Y7' 'TV-Y' 'NR' 'PG-13' 'TV-G' 'PG' 'G'\n nan 'UR' 'TV-Y7-FV' 'NC-17']\n\n\n***********************************\nMOVIE COUNTS by RATING \n***********************************\nTotal Movies: 4265\n\n\n\n\n\n\n\n\n\n\ncount\n\n\nrating\n\n\n\n\n\nTV-MA\n1348\n\n\nTV-14\n1038\n\n\nR\n506\n\n\nTV-PG\n432\n\n\nPG-13\n286\n\n\nNR\n202\n\n\nPG\n183\n\n\nTV-G\n80\n\n\nTV-Y7\n69\n\n\nTV-Y\n41\n\n\nG\n36\n\n\nTV-Y7-FV\n27\n\n\nUR\n7\n\n\nNC-17\n2\n\n\n\n\ndtype: int64\n\n\n\n\nMore Filtering\nThere are apparently some “made for TV” movies in the list that don’t fit the MPAA rating scheme.\nLet’s filter some more to just see movies rated with the standard MPAA ratings of G, PG, PG-13, R, and NC-17.\n\n# Filter the list of movies to select a new subset containing only movies with\n# a standard MPAA rating. Calculate how many rows are in this new set, and\n# then see which ratings appear most often.\n\n#select ratings\nmpaa_ratings = ['G', 'PG', 'PG-13', 'R', 'NC-17']\n\n#filter (MPAA)\nmpaa_movies = movies.query(\"rating in @mpaa_ratings\")\n#alternatively: `mpaa_movies = movies[ movies['rating'].isin(mpaa_ratings) ]`\n\n#frequency\nfrequency_table = mpaa_movies['rating'].value_counts()\nfrequency_table\n\n\n\n\n\n\n\n\ncount\n\n\nrating\n\n\n\n\n\nR\n506\n\n\nPG-13\n286\n\n\nPG\n183\n\n\nG\n36\n\n\nNC-17\n2\n\n\n\n\ndtype: int64"
+  },
+  {
+    "objectID": "notebooks/Exploration_01.html#part-4-visualization",
+    "href": "notebooks/Exploration_01.html#part-4-visualization",
+    "title": "Data Exploration 01",
+    "section": "Part 4: Visualization",
+    "text": "Part 4: Visualization\nNow that we have explored and preprocessed our data, let’s create a visualization to summarize our findings.\n\nExploration vs Presentation\nBroadly speaking, there are two types of visualizations: * Barebones visualizations you might use to get a quick, visual understanding of the data while you’re trying to decide how it all fits together. * Presentation-quality visualizations that you would include in a report or presentation for management or other stakeholders.\n\n\nVisualization Tools\nThere are many different visualization tools availble. In the sections below, we’ll explore the three most common. Each of these libraries has strengths and weaknesses.\nIt is probably a good idea for you to become familiar with each one, and then become proficient at whichever one you like the best.\n\n\nAltair\nThe Altair visualization library provides a large variety of very easy to use statistical charting tools.\nAltair uses a declarative language to build up charts piece by piece.\nAssume we have a pandas dataframe called employees, with three columns: name, job, salary.\n# Make a box plot style categorical plot showing the distribution of salaries for each job:\nalt.Chart(employees).mark_boxplot().encode(\n    x='job',\n    y='salary'\n)\n\n# Make a box plot style categorical plot, and customize the results\nalt.Chart(employees).mark_boxplot().encode(\n    alt.X('job', title='Job title'),\n    alt.Y('salary', title='Annual salary in thousands of $USD')\n).properties(\n  title='Salaries by Job Title'\n)\nLike with Pandas, there is a conventional way to import Altair into your projects.\n\n# Import the Altair library the conventional way.\nimport altair as alt\n\nLet’s create a barchart showing the count of each movie rating by using Altair’s aggregation capabilities.\nIn this example, we see the x axis being set to a feature called a, and the y axis set to the average() of a feature called b.\nIn our case, we want the x axis to be set to rating and the y axis to be the count() of rating.\n\n# Use Altair to create a bar chart comparing the count of each movie rating\n\n# Barplot:\n\n# Opt 1: (altair only): simple -- works\n# alt.Chart(mpaa_movies).mark_bar().encode(\n#     x='rating',\n#     y='count(rating)'\n# )\n\n# Opt 2: (pandas + altair): extra work -- works\n#dataframe\nfrequency_df = frequency_table.reset_index()\nfrequency_df.columns = ['rating', 'count']\n#barplot\nalt.Chart(frequency_df).mark_bar().encode(\n    x='rating',\n    y='count'\n)\n\n\n\n\n\n\n\n\n\nSeaborn\nWhile Altair uses a “declarative” syntax for building charts piece by piece, the Seaborn library provides a large variety of pre-made charts for common statistical needs.\nThese charts are divided into different categories. Each category has a high-level interface you can use for simplicity, and then a specific function for each chart that you can use if you need more control over how the chart looks.\nSeaborn uses matplotlib for its drawing, and the chart-specific functions each return a matplitlib axes object if you need additional customization.\nFor example, there are several different types of categorical plots in seaborn: bar plots, box plots, point plots, count plots, swarm plots, etc…\nEach of these plots can be accessed using the catplot function.\nAssume we have a pandas dataframe called employees, with three columns: name, job, salary.\n# Make a box plot style categorical plot showing the distribution of salaries for each job:\nsns.catplot(data=employees, x='job', y='salary', kind='box')\n\n# Make a swarm plot style categorical plot\nsns.catplot(data=employees, x='job', y='salary', kind='swarm')\nAlternatively, you can use the plot specific functions to give yourself more control over the output by using matplotlib functions:\n# Make a box plot style categorical plot, and customize the results\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(12, 9))\nax = sns.boxplot(data=employees, x='job', y='salary')\nax.set_title(\"Salaries by Job Title\")\nax.set_ylabel(\"Annual salary in thousands of $USD\")\nax.set_xlabel(\"Job title\")\nLike with Pandas, there is a conventional way to import Seaborn into your projects.\nOptionally, you may wish to set some default chart aesthetics by setting the chart style.\n\n# Import the seaborn library the conventional way. Then optionally configure\n# the default chart style.\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nSince the rating column uses categorical data, we need to use Seaborn’s categorical visualizations.\nIn particular, we want a “count plot” that will display a count of movie ratings.\n\n# Use seaborn to create a count plot comparing the count of each movie rating\nsns.catplot(data=mpaa_movies, x='rating', kind='count')\n\n\n\n\n\n\n\n\n\n\nPandas built-in plotting\nIn addition to libraries like Altair and Seaborn, Pandas has some built in charting functionality.\nWhile not as sophisticated as some of the other options, it is often good enough for quick visualizations.\nJust like with seaborn’s plotting functions, the pandas plotting functions return matplotlib axes objects, which can be further customized.\nAssume we have a pandas dataframe called employees, with three columns: name, job, salary.\n# Make a box plot style categorical plot showing the distribution of salaries for each job:\nemployees[ ['job','salary'] ].plot.box()\n\n# Make a box plot style categorical plot, and customize the results\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(12, 9))\nax = employees[ ['job','salary'] ].plot().box()\nax.set_title(\"Salaries by Job Title\")\nax.set_ylabel(\"Annual salary in thousands of $USD\")\nax.set_xlabel(\"Job title\")\n\n# Use pandas' built in plotting functions to create a count plot comparing the count of each movie rating\n# This will be a little trickier than the other libraries, but one hint is that the pandas value_counts() function\n# actually returns a dataframe.\n\n#count plot\n\n# Opt 1:\n# frequency_df.plot.bar()\n\n# Opt 2:\nmpaa_movies['rating'].value_counts().plot.bar()"
+  },
+  {
+    "objectID": "notebooks/Exploration_01.html#above-and-beyond",
+    "href": "notebooks/Exploration_01.html#above-and-beyond",
+    "title": "Data Exploration 01",
+    "section": "🌟 Above and Beyond 🌟",
+    "text": "🌟 Above and Beyond 🌟\nAfter reviewing your findings, the watchdog group would like some additional questions answered:\n\nHow are things affected if you include the “made for TV movies” that have been assigned TV ratings in your analysis, but still exclude unrated movies?\nThey would also like to see a separate report that includes only TV shows.\nFor an upcoming community meeting, the group would like to present a simple chart showing “For Kids” and “For Adults” categories. The easiest way to accomplish this would be to create a new column in your data frame that maps each rating to the appropriate “For Kids” or “For Adults” label, then create a new visualization based on that column."
+  },
+  {
+    "objectID": "Story_Telling/project3.html",
+    "href": "Story_Telling/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Story_Telling/project5.html",
+    "href": "Story_Telling/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "Full_Stack/project2.html",
     "href": "Full_Stack/project2.html",
     "title": "Client Report - [Insert Project Title]",
@@ -7,74 +87,19 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Full_Stack/project4.html",
-    "href": "Full_Stack/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Full_Stack/project3.html",
-    "href": "Full_Stack/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "full_stack.html",
-    "href": "full_stack.html",
-    "title": "Full Stack",
-    "section": "",
-    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Exploration/project2.html",
-    "href": "Cleansing_Exploration/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project4.html",
-    "href": "Cleansing_Exploration/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project3.html",
-    "href": "Cleansing_Exploration/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "Competition",
-    "section": "",
-    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition"
-    ]
-  },
-  {
-    "objectID": "Machine_Learning/project1.html",
-    "href": "Machine_Learning/project1.html",
+    "objectID": "Full_Stack/project1.html",
+    "href": "Full_Stack/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Machine Learning",
+      "Full Stack",
       "Project 1"
     ]
   },
   {
-    "objectID": "Machine_Learning/project5.html",
-    "href": "Machine_Learning/project5.html",
+    "objectID": "Full_Stack/project4.html",
+    "href": "Full_Stack/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
@@ -90,19 +115,15 @@
     ]
   },
   {
-    "objectID": "Competition/project1.html",
-    "href": "Competition/project1.html",
+    "objectID": "Cleansing_Exploration/project3.html",
+    "href": "Cleansing_Exploration/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition",
-      "Project 1"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Competition/project5.html",
-    "href": "Competition/project5.html",
+    "objectID": "Cleansing_Exploration/project5.html",
+    "href": "Cleansing_Exploration/project5.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
@@ -118,120 +139,22 @@
     ]
   },
   {
-    "objectID": "Cleansing_Projects/project1.html",
-    "href": "Cleansing_Projects/project1.html",
+    "objectID": "Machine_Learning/project2.html",
+    "href": "Machine_Learning/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Machine_Learning/project1.html",
+    "href": "Machine_Learning/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Data Cleansing",
+      "Machine Learning",
       "Project 1"
     ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project5.html",
-    "href": "Cleansing_Projects/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Story_Telling/project2.html",
-    "href": "Story_Telling/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Story_Telling/project4.html",
-    "href": "Story_Telling/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Story_Telling/project3.html",
-    "href": "Story_Telling/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "story_telling.html",
-    "href": "story_telling.html",
-    "title": "Story Telling",
-    "section": "",
-    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project5.html",
-    "href": "Story_Telling/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Story_Telling/project1.html",
-    "href": "Story_Telling/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project3.html",
-    "href": "Cleansing_Projects/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project4.html",
-    "href": "Cleansing_Projects/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project2.html",
-    "href": "Cleansing_Projects/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Competition/project3.html",
-    "href": "Competition/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Competition/project4.html",
-    "href": "Competition/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Competition/project2.html",
-    "href": "Competition/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Machine_Learning/project3.html",
-    "href": "Machine_Learning/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Machine_Learning/project4.html",
@@ -241,8 +164,25 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Machine_Learning/project2.html",
-    "href": "Machine_Learning/project2.html",
+    "objectID": "cleansing.html",
+    "href": "cleansing.html",
+    "title": "Cleansing",
+    "section": "",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Cleansing"
+    ]
+  },
+  {
+    "objectID": "Competition/project3.html",
+    "href": "Competition/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Competition/project5.html",
+    "href": "Competition/project5.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
@@ -290,8 +230,67 @@
     "text": "Extra Curricular\n\n\n    \n    \n        Choral Artist\n        Orem, Utah & Rexburg, Idaho\n    \n    \n    \n        Tenor Vocalist\n        September 2013 - April 2020\n    \n    \n    \n        Involved in 6 choirs; Institutions (3):\n    \n    \n    \n        Canyon View Jr. High School\n        Orem High School\n        Brigham Young University - Idaho\n    \n\n\n\n\n    \n    \n        The Utah Ambassadors of Music\n        Utah, USA & European Nations\n    \n    \n    \n        European Choir Tour Nominee & Participant\n        September 2018 - July 2019\n    \n    \n    \n        Selected as a three-time nominee for The Utah Ambassadors of Music.\n        Nominated by Sterling Keys, high school choir director, for participation in the bi-annual European Choir Tour (2019).\n        Concert host countries included:\n        \n            London\n            France\n            Switzerland\n            Austria\n            Italy\n            Germany"
   },
   {
-    "objectID": "Cleansing_Exploration/project5.html",
-    "href": "Cleansing_Exploration/project5.html",
+    "objectID": "Competition/project4.html",
+    "href": "Competition/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Competition/project1.html",
+    "href": "Competition/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Competition/project2.html",
+    "href": "Competition/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "Full Stack",
+    "section": "",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack"
+    ]
+  },
+  {
+    "objectID": "Machine_Learning/project5.html",
+    "href": "Machine_Learning/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Machine_Learning/project3.html",
+    "href": "Machine_Learning/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "Competition",
+    "section": "",
+    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project4.html",
+    "href": "Cleansing_Exploration/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
@@ -299,6 +298,13 @@
   {
     "objectID": "Cleansing_Exploration/project1.html",
     "href": "Cleansing_Exploration/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project2.html",
+    "href": "Cleansing_Exploration/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
@@ -325,16 +331,6 @@
     "text": "Since beginning college in the fall of 2019 I have lived in Pennsylvania, Maryland, Delaware, New Jersey, Virginia, South Dakota, and Idaho.\nI’ve also traveled abroad to Mexico, Honduras, Belize, Puerto Rico, London, France, Switzerland, Italy, Austria, Lichtenstein, and Germany.\n\n\nSince traveling, and through simple personal growth, I’ve come to see the world as far more makeshift and maleable in the hands of those who learn to shape it. The skills incorporated by data scientists, computer scientists, and business analysis—all of which I am—endeavor to create and protect a better world.\nMarkDown Basics"
   },
   {
-    "objectID": "cleansing.html",
-    "href": "cleansing.html",
-    "title": "Cleansing",
-    "section": "",
-    "text": "[Header]\nNo content found. Check back later!\nMarkDown Basics\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing"
-    ]
-  },
-  {
     "objectID": "Full_Stack/project5.html",
     "href": "Full_Stack/project5.html",
     "title": "Client Report - [Insert Project Title]",
@@ -342,14 +338,60 @@
     "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "Full_Stack/project1.html",
-    "href": "Full_Stack/project1.html",
+    "objectID": "Full_Stack/project3.html",
+    "href": "Full_Stack/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Story_Telling/project4.html",
+    "href": "Story_Telling/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Story_Telling/project1.html",
+    "href": "Story_Telling/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack",
+      "Story Telling",
       "Project 1"
     ]
+  },
+  {
+    "objectID": "Story_Telling/project2.html",
+    "href": "Story_Telling/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Projects/project4.html",
+    "href": "Cleansing_Projects/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Projects/project1.html",
+    "href": "Cleansing_Projects/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Cleansing",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Projects/project2.html",
+    "href": "Cleansing_Projects/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   }
 ]
